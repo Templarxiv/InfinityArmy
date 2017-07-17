@@ -1,0 +1,6 @@
+HMG = +5 BS +2 ARM +1S = 9
+Spitfire=+3 BS + 1 ARM +1S = 6
+BShotgun=-3 BS + 1 ARM -1S = -4
+CR=-1 BS + 0 ARM 0S = -1
+ViralCR=-1 BS + 7 ARM 0S = 6
+Viral Sniper = +3BS + 9ARM -1s = 11

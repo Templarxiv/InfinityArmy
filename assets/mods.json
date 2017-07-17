@@ -1,41 +1,58 @@
 [{
-    "Id": 30,
-    "Name": "TO CAMOUFLAGE",
-    "Value": 3.5
+  "Id": 30,
+  "Name": "TO CAMOUFLAGE",
+  "Value": 3.5
 }, {
-    "Id": 29,
-    "Name": "CAMOUFLAGE",
-    "Value": 2
+  "Id": 29,
+  "Name": "CAMOUFLAGE",
+  "Value": 2
 }, {
-    "Id": 35,
-    "Name": "COMBAT JUMP",
-    "Value": 3.5
+  "Id": 35,
+  "Name": "COMBAT JUMP",
+  "Value": 3.5
+
 }, {
-    "Id": 115,
-    "Name": "MULTISPECTRAL VISOR L2",
-    "Value": 1.5
+  "Id": 114,
+  "Name": "MULTISPECTRAL VISOR L1",
+  "Value": 1.5
 }, {
-    "Id": 116,
-    "Name": "MULTISPECTRAL VISOR L3",
-    "Value": 2
+  "Id": 115,
+  "Name": "MULTISPECTRAL VISOR L2",
+  "Value": 1.5
 }, {
-    "Id": 28,
-    "Name": "MIMETISM",
-    "Value": 2
+  "Id": 116,
+  "Name": "MULTISPECTRAL VISOR L2",
+  "Value": 2
 }, {
-    "Id": 98,
-    "Name": "Optical Disruption",
-    "Value": 3.5
+  "Id": 28,
+  "Name": "MIMETISM",
+  "Value": 2
 }, {
-    "Id": 131,
-    "Name": "Symbiont Armor",
-    "Value": 5.5
+  "Id": 98,
+  "Name": "Optical Disruption",
+  "Value": 3.5
 }, {
-    "Id": 86,
-    "Name": "NO WOUND INCAPACITATION",
-    "Value": 5.5
+  "Id": 131,
+  "Name": "Symbiont Armor",
+  "Value": 5.5
 }, {
-    "Id": 85,
-    "Name": "DOGGED",
-    "Value": 3.5
+  "Id": 86,
+  "Name": "NO WOUND INCAPACITATION",
+  "Value": 5.5
+}, {
+  "Id": 85,
+  "Name": "DOGGED",
+  "Value": 3.5
+}, {
+  "Id": 89,
+  "Name": "Sapper",
+  "Value": 2.5
+}, {
+  "Id": 108,
+  "Name": "Nanoscreen",
+  "Value": 2
+}, {
+  "Id": 62,
+  "Name": "Regeneration",
+  "Value": 5
 }]
