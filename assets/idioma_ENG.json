@@ -1,0 +1,5184 @@
+[JSON_ATRIBUTOS_ROTS = '{
+"atributosROT": {
+  "0": "MOV",
+  "2": "CC",
+  "3": "BS",
+  "4": "PH",
+  "5": "WIP",
+  "6": "ARM",
+  "7": "BTS",
+  "8": "W",
+  "9": "S",
+  "10": "AVA",
+  "11": "STR",
+  "12": "Total"
+}
+}
+';
+JSON_ATRIBUTOS_ROTS_LARGO = '{
+"atributosROT": {
+  "0": "Movement",
+  "2": "Close Combat",
+  "3": "Ballistic Skills",
+  "4": "Physique",
+  "5": "Willpower",
+  "6": "Armor",
+  "7": "Bio-Technological Shield",
+  "8": "Wounds",
+  "9": "Silhouette",
+  "10": "Availability",
+  "11": "Structure"
+}
+}
+';
+JSON_TIPOS = '[ {
+"id": "0",
+"nombre": "",
+"slt": "None"
+}, {
+  "id": "1",
+  "nombre": "LI",
+  "tt": "Light Infantry"
+}, {
+  "id": "2",
+  "nombre": "MI",
+  "tt": "Medium Infantry"
+}, {
+  "id": "3",
+  "nombre": "HI",
+  "tt": "Heavy Infantry"
+}, {
+  "id": "4",
+  "nombre": "TAG",
+  "tt": "Tactical Armored Gear"
+}, {
+  "id": "5",
+  "nombre": "REM",
+  "tt": "Remote"
+}, {
+  "id": "6",
+  "nombre": "SK",
+  "tt": "Skirmisher"
+}, {
+  "id": "7",
+  "nombre": "WB",
+  "tt": "Warband"
+}
+]
+';
+JSON_CATEGORIAS = '[ {
+"id": "1",
+"nombre": "Garrison Troops"
+}, {
+  "id": "2",
+  "nombre": "Line Troops"
+}, {
+  "id": "3",
+  "nombre": "Spec. Trained Troops"
+}, {
+  "id": "4",
+  "nombre": "Veteran Troops"
+}, {
+  "id": "5",
+  "nombre": "Elite Troops"
+}, {
+  "id": "6",
+  "nombre": "Headquarters Troops"
+}, {
+  "id": "7",
+  "nombre": "Mechanized Troops"
+}, {
+  "id": "8",
+  "nombre": "Support Troops"
+}, {
+  "id": "9",
+  "nombre": "Linkable"
+}, {
+  "id": "10",
+  "nombre": "Character"
+}, {
+  "id": "11",
+  "nombre": "Mercenary Troops"
+}, {
+  "id": "12",
+  "nombre": "Headquarters Troops \/ Mechanized Troops"
+}
+]
+';
+JSON_HABILIDADES = '[ {
+"id": "19",
+"equipo": "0",
+"nombre": "Martial Arts L1"
+}, {
+  "id": "20",
+  "equipo": "0",
+  "nombre": "Martial Arts L2"
+}, {
+  "id": "21",
+  "equipo": "0",
+  "nombre": "Martial Arts L3"
+}, {
+  "id": "22",
+  "equipo": "0",
+  "nombre": "Martial Arts L4"
+}, {
+  "id": "23",
+  "equipo": "0",
+  "nombre": "Martial Arts L5"
+}, {
+  "id": "24",
+  "equipo": "0",
+  "nombre": "Berserk"
+}, {
+  "id": "25",
+  "equipo": "0",
+  "nombre": "Booty L1"
+}, {
+  "id": "26",
+  "equipo": "0",
+  "nombre": "Chain of Command"
+}, {
+  "id": "27",
+  "equipo": "0",
+  "nombre": "CH: Limited Camouflage"
+}, {
+  "id": "28",
+  "equipo": "0",
+  "nombre": "CH: Mimetism"
+}, {
+  "id": "29",
+  "equipo": "0",
+  "nombre": "CH: Camouflage"
+}, {
+  "id": "30",
+  "equipo": "0",
+  "nombre": "CH: TO Camouflage"
+}, {
+  "id": "31",
+  "equipo": "0",
+  "nombre": "Coma"
+}, {
+  "id": "32",
+  "equipo": "0",
+  "nombre": "Dual Wield"
+}, {
+  "id": "33",
+  "equipo": "0",
+  "nombre": "AD: Parachutist"
+}, {
+  "id": "34",
+  "equipo": "0",
+  "nombre": "AD: Airborne Infiltration"
+}, {
+  "id": "35",
+  "equipo": "0",
+  "nombre": "AD: Combat Jump"
+}, {
+  "id": "36",
+  "equipo": "0",
+  "nombre": "AD: Tactical Jump"
+}, {
+  "id": "37",
+  "equipo": "0",
+  "nombre": "Mechanized Deployment"
+}, {
+  "id": "38",
+  "equipo": "0",
+  "nombre": "Explode"
+}, {
+  "id": "39",
+  "equipo": "0",
+  "nombre": "Natural Born Warrior"
+}, {
+  "id": "40",
+  "equipo": "0",
+  "nombre": "Hyper-Dynamics L1"
+}, {
+  "id": "41",
+  "equipo": "0",
+  "nombre": "Hyper-Dynamics L2"
+}, {
+  "id": "42",
+  "equipo": "0",
+  "nombre": "Hyper-Dynamics L3"
+}, {
+  "id": "43",
+  "equipo": "0",
+  "nombre": "I-khol L1"
+}, {
+  "id": "44",
+  "equipo": "0",
+  "nombre": "I-khol L2"
+}, {
+  "id": "45",
+  "equipo": "0",
+  "nombre": "I-khol L3"
+}, {
+  "id": "46",
+  "equipo": "0",
+  "nombre": "Inferior Infiltration"
+}, {
+  "id": "47",
+  "equipo": "0",
+  "nombre": "Infiltration"
+}, {
+  "id": "48",
+  "equipo": "0",
+  "nombre": "Superior Infiltration"
+}, {
+  "id": "49",
+  "equipo": "0",
+  "nombre": "Engineer"
+}, {
+  "id": "50",
+  "equipo": "0",
+  "nombre": "Shock Immunity"
+}, {
+  "id": "51",
+  "equipo": "0",
+  "nombre": "Total Immunity"
+}, {
+  "id": "52",
+  "equipo": "0",
+  "nombre": "Inspiring Leadership"
+}, {
+  "id": "53",
+  "equipo": "0",
+  "nombre": "Doctor"
+}, {
+  "id": "54",
+  "equipo": "0",
+  "nombre": "Meta-Agility"
+}, {
+  "id": "55",
+  "equipo": "0",
+  "nombre": "MetaChemistry"
+}, {
+  "id": "56",
+  "equipo": "0",
+  "nombre": "Minelayer"
+}, {
+  "id": "57",
+  "equipo": "0",
+  "nombre": "Superior Movement"
+}, {
+  "id": "58",
+  "equipo": "0",
+  "nombre": "Multiterrain"
+}, {
+  "id": "59",
+  "equipo": "0",
+  "nombre": "Forward Observer"
+}, {
+  "id": "60",
+  "equipo": "0",
+  "nombre": "Pilot"
+}, {
+  "id": "61",
+  "equipo": "0",
+  "nombre": "Total Reaction"
+}, {
+  "id": "62",
+  "equipo": "0",
+  "nombre": "Regeneration"
+}, {
+  "id": "63",
+  "equipo": "1",
+  "nombre": "Repeater"
+}, {
+  "id": "64",
+  "equipo": "0",
+  "nombre": "Paramedic"
+}, {
+  "id": "65",
+  "equipo": "0",
+  "nombre": "Sensor"
+}, {
+  "id": "66",
+  "equipo": "0",
+  "nombre": "Seed-Embryo"
+}, {
+  "id": "67",
+  "equipo": "0",
+  "nombre": "Sixth Sense L1"
+}, {
+  "id": "68",
+  "equipo": "0",
+  "nombre": "Sixth Sense L2"
+}, {
+  "id": "69",
+  "equipo": "0",
+  "nombre": "Strategos L1"
+}, {
+  "id": "70",
+  "equipo": "0",
+  "nombre": "Strategos L2"
+}, {
+  "id": "71",
+  "equipo": "0",
+  "nombre": "Strategos L3"
+}, {
+  "id": "72",
+  "equipo": "0",
+  "nombre": "Protheion L1"
+}, {
+  "id": "73",
+  "equipo": "0",
+  "nombre": "Morpho-scan"
+}, {
+  "id": "74",
+  "equipo": "0",
+  "nombre": "Super-Jump"
+}, {
+  "id": "75",
+  "equipo": "0",
+  "nombre": "Basic Impersonation"
+}, {
+  "id": "76",
+  "equipo": "0",
+  "nombre": "Impersonation Plus"
+}, {
+  "id": "77",
+  "equipo": "0",
+  "nombre": "Aquatic Terrain"
+}, {
+  "id": "78",
+  "equipo": "0",
+  "nombre": "Mountain Terrain"
+}, {
+  "id": "79",
+  "equipo": "0",
+  "nombre": "Jungle Terrain"
+}, {
+  "id": "80",
+  "equipo": "0",
+  "nombre": "Zero-G"
+}, {
+  "id": "81",
+  "equipo": "0",
+  "nombre": "Desert Terrain"
+}, {
+  "id": "82",
+  "equipo": "0",
+  "nombre": "Climbing Plus"
+}, {
+  "id": "83",
+  "equipo": "0",
+  "nombre": "Religious Troop"
+}, {
+  "id": "84",
+  "equipo": "0",
+  "nombre": "V: Courage"
+}, {
+  "id": "85",
+  "equipo": "0",
+  "nombre": "V: Dogged"
+}, {
+  "id": "86",
+  "equipo": "0",
+  "nombre": "V: No Wound Incapacitation"
+}, {
+  "id": "87",
+  "equipo": "0",
+  "nombre": "Poison"
+}, {
+  "id": "88",
+  "equipo": "0",
+  "nombre": "Veteran L1"
+}, {
+  "id": "89",
+  "equipo": "0",
+  "nombre": "Sapper"
+}, {
+  "id": "90",
+  "equipo": "1",
+  "nombre": "AutoMediKit"
+}, {
+  "id": "91",
+  "equipo": "1",
+  "nombre": "Baggage"
+}, {
+  "id": "92",
+  "equipo": "1",
+  "nombre": "AI Beacon"
+}, {
+  "id": "93",
+  "equipo": "1",
+  "nombre": "Minesweeper"
+}, {
+  "id": "94",
+  "equipo": "1",
+  "nombre": "Biolocator"
+}, {
+  "id": "95",
+  "equipo": "1",
+  "nombre": "Antipode Control Device"
+}, {
+  "id": "96",
+  "equipo": "1",
+  "nombre": "Kuang Shi Control Device"
+}, {
+  "id": "97",
+  "equipo": "1",
+  "nombre": "Traktor Mul Control Device"
+}, {
+  "id": "98",
+  "equipo": "1",
+  "nombre": "ODD: Optical Disruptor"
+}, {
+  "id": "99",
+  "equipo": "1",
+  "nombre": "ODD: Optical Disruptor Field"
+}, {
+  "id": "100",
+  "equipo": "1",
+  "nombre": "Hacking Device"
+}, {
+  "id": "101",
+  "equipo": "1",
+  "nombre": "Hacking Device Plus"
+}, {
+  "id": "102",
+  "equipo": "1",
+  "nombre": "ECM"
+}, {
+  "id": "103",
+  "equipo": "1",
+  "nombre": "Braces"
+}, {
+  "id": "104",
+  "equipo": "1",
+  "nombre": "Holoprojector L1"
+}, {
+  "id": "105",
+  "equipo": "1",
+  "nombre": "Holoprojector L2"
+}, {
+  "id": "106",
+  "equipo": "1",
+  "nombre": "MediKit"
+}, {
+  "id": "107",
+  "equipo": "1",
+  "nombre": "Motorcycle"
+}, {
+  "id": "108",
+  "equipo": "1",
+  "nombre": "Nanoscreen"
+}, {
+  "id": "109",
+  "equipo": "0",
+  "nombre": "Neurocinetics"
+}, {
+  "id": "110",
+  "equipo": "1",
+  "nombre": "EVO Repeater"
+}, {
+  "id": "111",
+  "equipo": "1",
+  "nombre": "Deployable Repeater"
+}, {
+  "id": "112",
+  "equipo": "1",
+  "nombre": "ED: Ejection System"
+}, {
+  "id": "113",
+  "equipo": "1",
+  "nombre": "360º Visor"
+}, {
+  "id": "114",
+  "equipo": "1",
+  "nombre": "Multispectral Visor L1"
+}, {
+  "id": "115",
+  "equipo": "1",
+  "nombre": "Multispectral Visor L2"
+}, {
+  "id": "116",
+  "equipo": "1",
+  "nombre": "Multispectral Visor L3"
+}, {
+  "id": "117",
+  "equipo": "1",
+  "nombre": "X Visor"
+}, {
+  "id": "118",
+  "equipo": "1",
+  "nombre": "X-2 Visor"
+}, {
+  "id": "119",
+  "equipo": "0",
+  "nombre": "Lieutenant"
+}, {
+  "id": "120",
+  "equipo": "0",
+  "nombre": "Fireteam: Core"
+}, {
+  "id": "121",
+  "equipo": "0",
+  "nombre": "Fireteam: Haris"
+}, {
+  "id": "122",
+  "equipo": "0",
+  "nombre": "Number 2"
+}, {
+  "id": "123",
+  "equipo": "0",
+  "nombre": "Specialist Troop"
+}, {
+  "id": "124",
+  "equipo": "1",
+  "nombre": "Hungries Control Device"
+}, {
+  "id": "125",
+  "equipo": "0",
+  "nombre": "Fireteam: Enomotarchos"
+}, {
+  "id": "126",
+  "equipo": "1",
+  "nombre": "Spotter"
+}, {
+  "id": "127",
+  "equipo": "0",
+  "nombre": "Journalist L1"
+}, {
+  "id": "128",
+  "equipo": "0",
+  "nombre": "Journalist L2"
+}, {
+  "id": "129",
+  "equipo": "0",
+  "nombre": "Fireteam: Triad"
+}, {
+  "id": "130",
+  "equipo": "1",
+  "nombre": "Defensive Hacking Device"
+}, {
+  "id": "131",
+  "equipo": "1",
+  "nombre": "Symbiont Armour"
+}, {
+  "id": "132",
+  "equipo": "0",
+  "nombre": "Civvie"
+}, {
+  "id": "133",
+  "equipo": "0",
+  "nombre": "MEDEVAC Plus"
+}, {
+  "id": "134",
+  "equipo": "0",
+  "nombre": "CUBEVAC Plus"
+}, {
+  "id": "135",
+  "equipo": "0",
+  "nombre": "AD: Inferior Combat Jump"
+}, {
+  "id": "136",
+  "equipo": "0",
+  "nombre": "Booty L2"
+}, {
+  "id": "137",
+  "equipo": "1",
+  "nombre": "ED: Escape System"
+}, {
+  "id": "138",
+  "equipo": "0",
+  "nombre": "Bioimmunity"
+}, {
+  "id": "139",
+  "equipo": "1",
+  "nombre": "Assault Hacking Device"
+}, {
+  "id": "140",
+  "equipo": "0",
+  "nombre": "Assault"
+}, {
+  "id": "141",
+  "equipo": "0",
+  "nombre": "Kinematika L1"
+}, {
+  "id": "142",
+  "equipo": "1",
+  "nombre": "Advanced ECM"
+}, {
+  "id": "143",
+  "equipo": "1",
+  "nombre": "Deactivator"
+}, {
+  "id": "144",
+  "equipo": "0",
+  "nombre": "Sat-lock"
+}, {
+  "id": "145",
+  "equipo": "1",
+  "nombre": "Killer Hacking Device"
+}, {
+  "id": "146",
+  "equipo": "0",
+  "nombre": "Executive Order"
+}, {
+  "id": "147",
+  "equipo": "0",
+  "nombre": "Advanced Command"
+}, {
+  "id": "148",
+  "equipo": "0",
+  "nombre": "CH: Ambush Camouflage"
+}, {
+  "id": "149",
+  "equipo": "0",
+  "nombre": "Marksmanship LX"
+}, {
+  "id": "150",
+  "equipo": "0",
+  "nombre": "Marksmanship L1"
+}, {
+  "id": "151",
+  "equipo": "0",
+  "nombre": "Veteran L2 (Sixth Sense L2, V: NWI)"
+}, {
+  "id": "152",
+  "equipo": "0",
+  "nombre": "Scavenger"
+}, {
+  "id": "153",
+  "equipo": "0",
+  "nombre": "Kinematika L2"
+}, {
+  "id": "154",
+  "equipo": "0",
+  "nombre": "AD: Superior Combat Jump"
+}, {
+  "id": "155",
+  "equipo": "0",
+  "nombre": "Doctor Plus"
+}, {
+  "id": "156",
+  "equipo": "0",
+  "nombre": "Marksmanship L2"
+}, {
+  "id": "157",
+  "equipo": "0",
+  "nombre": "Akbar Doctor"
+}, {
+  "id": "158",
+  "equipo": "0",
+  "nombre": "Heavyweight"
+}, {
+  "id": "159",
+  "equipo": "1",
+  "nombre": "EI Hacking Device"
+}, {
+  "id": "160",
+  "equipo": "1",
+  "nombre": "EI Assault Hacking Device"
+}, {
+  "id": "161",
+  "equipo": "0",
+  "nombre": "Forward Deployment L1"
+}, {
+  "id": "162",
+  "equipo": "0",
+  "nombre": "Immunity: POS"
+}, {
+  "id": "163",
+  "equipo": "0",
+  "nombre": "Explode L1"
+}, {
+  "id": "164",
+  "equipo": "0",
+  "nombre": "Stealth"
+}, {
+  "id": "165",
+  "equipo": "1",
+  "nombre": "BS Weapon: Smoke Light Grenade Launcher"
+}, {
+  "id": "166",
+  "equipo": "0",
+  "nombre": "Lieutenant L2"
+}, {
+  "id": "167",
+  "equipo": "1",
+  "nombre": "Aerocam"
+}, {
+  "id": "168",
+  "equipo": "1",
+  "nombre": "TinBot A (Deflector L1)"
+}, {
+  "id": "169",
+  "equipo": "1",
+  "nombre": "TinBot B (Deflector L2)"
+}, {
+  "id": "170",
+  "equipo": "0",
+  "nombre": "Corahtar Discipline L1"
+}, {
+  "id": "171",
+  "equipo": "0",
+  "nombre": "MetaChemistry L2"
+}, {
+  "id": "172",
+  "equipo": "0",
+  "nombre": "Protheion L2"
+}, {
+  "id": "173",
+  "equipo": "0",
+  "nombre": "Protheion L3"
+}, {
+  "id": "174",
+  "equipo": "0",
+  "nombre": "Protheion L4"
+}, {
+  "id": "175",
+  "equipo": "0",
+  "nombre": "Protheion L5"
+}, {
+  "id": "176",
+  "equipo": "0",
+  "nombre": "Forward Deployment L2"
+}, {
+  "id": "177",
+  "equipo": "0",
+  "nombre": "Guard L1"
+}, {
+  "id": "178",
+  "equipo": "0",
+  "nombre": "Guard L2"
+}, {
+  "id": "179",
+  "equipo": "0",
+  "nombre": "Guard L3"
+}, {
+  "id": "180",
+  "equipo": "0",
+  "nombre": "Guard L4"
+}, {
+  "id": "181",
+  "equipo": "0",
+  "nombre": "Fireteam: Duo"
+}, {
+  "id": "182",
+  "equipo": "1",
+  "nombre": "EVO Hacking Device"
+}, {
+  "id": "183",
+  "equipo": "1",
+  "nombre": "Albedo"
+}, {
+  "id": "184",
+  "equipo": "1",
+  "nombre": "Biometric Visor L1"
+}, {
+  "id": "185",
+  "equipo": "1",
+  "nombre": "Biometric Visor L2"
+}, {
+  "id": "186",
+  "equipo": "0",
+  "nombre": "Free Agent"
+}, {
+  "id": "187",
+  "equipo": "0",
+  "nombre": "Manned"
+}, {
+  "id": "188",
+  "equipo": "1",
+  "nombre": "TinBot C (Neourocinetics)"
+}, {
+  "id": "189",
+  "equipo": "0",
+  "nombre": "Specialist Operative"
+}, {
+  "id": "190",
+  "equipo": "0",
+  "nombre": "Lo-Tech A"
+}, {
+  "id": "191",
+  "equipo": "0",
+  "nombre": "Surprise Shot L1"
+}, {
+  "id": "192",
+  "equipo": "0",
+  "nombre": "Surprise Shot L2"
+}, {
+  "id": "193",
+  "equipo": "1",
+  "nombre": "TinBot D (Albedo)"
+}, {
+  "id": "194",
+  "equipo": "1",
+  "nombre": "TinBot E (Spotter)"
+}, {
+  "id": "195",
+  "equipo": "1",
+  "nombre": "Holoprojector L3"
+}, {
+  "id": "196",
+  "equipo": "1",
+  "nombre": "White Hacking Device"
+}, {
+  "id": "197",
+  "equipo": "0",
+  "nombre": "Remote Pilot"
+}, {
+  "id": "198",
+  "equipo": "0",
+  "nombre": "Remote Assistant Level 1"
+}
+]
+';
+JSON_ARMAS = '[ {
+"id": "50",
+"nombre": "Adhesive Launcher",
+"nombre_completo": "Adhesive Launcher",
+"CC": "0",
+"EM": "0",
+"corta": "20|0",
+"media": "40|+3",
+"larga": "80|-3",
+"maxima": "120|-6",
+"dano": "-",
+"rafaga": "1",
+"idMunicion": "1",
+"nombre_municion": "Adhesive",
+"propiedades": "22",
+"lista_propiedades": "Non-lethal",
+"link": "0"
+}, {
+  "id": "1",
+  "nombre": "Akrylat-Kanone",
+  "nombre_completo": "Akrylat-Kanone",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|-3",
+  "media": "40|0",
+  "larga": "80|+3",
+  "maxima": "120|-3",
+  "dano": "-",
+  "rafaga": "1",
+  "idMunicion": "1",
+  "nombre_municion": "Adhesive",
+  "propiedades": "11|22",
+  "lista_propiedades": "Disposable (2)|Non-lethal",
+  "link": "0"
+}, {
+  "id": "61",
+  "nombre": "Antipersonnel Mines",
+  "nombre_completo": "Antipersonnel Mines",
+  "CC": "0",
+  "EM": "1",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "13",
+  "rafaga": "1",
+  "idMunicion": "8",
+  "nombre_municion": "Shock",
+  "propiedades": "7|8|12|25|28",
+  "lista_propiedades": "Intuitive Attack|Concealed|Disposable (3)|Direct Template (Small Teardrop)|Deployable",
+  "link": "0"
+}, {
+  "id": "6",
+  "nombre": "AP CC Weapon",
+  "nombre_completo": "AP CC Weapon",
+  "CC": "1",
+  "EM": "0",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "PH",
+  "rafaga": "1",
+  "idMunicion": "3",
+  "nombre_municion": "AP",
+  "propiedades": "9",
+  "lista_propiedades": "CC",
+  "link": "0"
+}, {
+  "id": "100",
+  "nombre": "AP Heavy Pistol",
+  "nombre_completo": "AP Heavy Pistol",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|+3",
+  "media": "40|0",
+  "larga": "60|-6",
+  "maxima": "-",
+  "dano": "14",
+  "rafaga": "2 (1 in CC)",
+  "idMunicion": "3",
+  "nombre_municion": "AP",
+  "propiedades": "9",
+  "lista_propiedades": "CC",
+  "link": "0"
+}, {
+  "id": "3",
+  "nombre": "AP HMG",
+  "nombre_completo": "AP HMG",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|-3",
+  "media": "40|0",
+  "larga": "80|+3",
+  "maxima": "120|-3",
+  "dano": "15",
+  "rafaga": "4",
+  "idMunicion": "3",
+  "nombre_municion": "AP",
+  "propiedades": "15",
+  "lista_propiedades": "Suppressive Fire",
+  "link": "0"
+}, {
+  "id": "85",
+  "nombre": "AP Marksman Rifle",
+  "nombre_completo": "AP Marksman Rifle",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|-3",
+  "media": "60|+3",
+  "larga": "100|-3",
+  "maxima": "120|-6",
+  "dano": "13",
+  "rafaga": "3",
+  "idMunicion": "3",
+  "nombre_municion": "AP",
+  "propiedades": "15",
+  "lista_propiedades": "Suppressive Fire",
+  "link": "0"
+}, {
+  "id": "32",
+  "nombre": "AP Rifle",
+  "nombre_completo": "AP Rifle",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|0",
+  "media": "40|+3",
+  "larga": "80|-3",
+  "maxima": "120|-6",
+  "dano": "13",
+  "rafaga": "3",
+  "idMunicion": "3",
+  "nombre_municion": "AP",
+  "propiedades": "15",
+  "lista_propiedades": "Suppressive Fire",
+  "link": "0"
+}, {
+  "id": "35",
+  "nombre": "AP Sniper",
+  "nombre_completo": "AP Sniper",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|-3",
+  "media": "40|0",
+  "larga": "120|+3",
+  "maxima": "240|-3",
+  "dano": "15",
+  "rafaga": "2",
+  "idMunicion": "3",
+  "nombre_municion": "AP",
+  "propiedades": "",
+  "lista_propiedades": "",
+  "link": "0"
+}, {
+  "id": "157",
+  "nombre": "AP Spitfire",
+  "nombre_completo": "AP Spitfire",
+  "CC": "0",
+  "EM": "1",
+  "corta": "20|0",
+  "media": "60|+3",
+  "larga": "80|-3",
+  "maxima": "120|-6",
+  "dano": "14",
+  "rafaga": "4",
+  "idMunicion": "3",
+  "nombre_municion": "AP",
+  "propiedades": "15",
+  "lista_propiedades": "Suppressive Fire",
+  "link": "0"
+}, {
+  "id": "70",
+  "nombre": "Assault Pistol",
+  "nombre_completo": "Assault Pistol",
+  "CC": "1",
+  "EM": "0",
+  "corta": "20|+3",
+  "media": "40|0",
+  "larga": "60|-6",
+  "maxima": "-",
+  "dano": "13",
+  "rafaga": "4 (1 in CC)",
+  "idMunicion": "2",
+  "nombre_municion": "N",
+  "propiedades": "9",
+  "lista_propiedades": "CC",
+  "link": "0"
+}, {
+  "id": "141",
+  "nombre": "Bare-handed",
+  "nombre_completo": "Bare-handed",
+  "CC": "0",
+  "EM": "0",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "PH-2",
+  "rafaga": "1",
+  "idMunicion": "2",
+  "nombre_municion": "N",
+  "propiedades": "9",
+  "lista_propiedades": "CC",
+  "link": "0"
+}, {
+  "id": "14",
+  "nombre": "Blitzen",
+  "nombre_completo": "Blitzen",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|-3",
+  "media": "40|0",
+  "larga": "80|+3",
+  "maxima": "120|-3",
+  "dano": "14",
+  "rafaga": "1",
+  "idMunicion": "12",
+  "nombre_municion": "E|M2",
+  "propiedades": "11",
+  "lista_propiedades": "Disposable (2)",
+  "link": "0"
+}, {
+  "id": "133",
+  "nombre": "Boarding Shotgun",
+  "nombre_completo": "Boarding Shotgun# (AP Mode)",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|+6",
+  "media": "40|0",
+  "larga": "60|-3",
+  "maxima": "-",
+  "dano": "14",
+  "rafaga": "2",
+  "idMunicion": "3",
+  "nombre_municion": "AP",
+  "propiedades": "",
+  "lista_propiedades": "",
+  "link": "0"
+}, {
+  "id": "26",
+  "nombre": "Boarding Shotgun",
+  "nombre_completo": "Boarding Shotgun# (Blast Mode)",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|+6",
+  "media": "40|0",
+  "larga": "60|-3",
+  "maxima": "-",
+  "dano": "14",
+  "rafaga": "2",
+  "idMunicion": "2",
+  "nombre_municion": "N",
+  "propiedades": "27",
+  "lista_propiedades": "Impact Template (Small Teardrop)",
+  "link": "133"
+}, {
+  "id": "103",
+  "nombre": "Breaker Combi Rifle",
+  "nombre_completo": "Breaker Combi Rifle",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|+3",
+  "media": "40|+3",
+  "larga": "80|-3",
+  "maxima": "120|-6",
+  "dano": "13",
+  "rafaga": "3",
+  "idMunicion": "32",
+  "nombre_municion": "Breaker",
+  "propiedades": "15",
+  "lista_propiedades": "Suppressive Fire",
+  "link": "0"
+}, {
+  "id": "98",
+  "nombre": "Breaker Pistol",
+  "nombre_completo": "Breaker Pistol",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|+3",
+  "media": "40|0",
+  "larga": "60|-6",
+  "maxima": "-",
+  "dano": "12",
+  "rafaga": "2 (1 in CC)",
+  "idMunicion": "32",
+  "nombre_municion": "Breaker",
+  "propiedades": "9",
+  "lista_propiedades": "CC",
+  "link": "0"
+}, {
+  "id": "109",
+  "nombre": "Breaker Rifle",
+  "nombre_completo": "Breaker Rifle",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|0",
+  "media": "40|+3",
+  "larga": "80|-3",
+  "maxima": "120|-6",
+  "dano": "13",
+  "rafaga": "3",
+  "idMunicion": "32",
+  "nombre_municion": "Breaker",
+  "propiedades": "15",
+  "lista_propiedades": "Suppressive Fire",
+  "link": "0"
+}, {
+  "id": "5",
+  "nombre": "CC Weapon",
+  "nombre_completo": "CC Weapon",
+  "CC": "1",
+  "EM": "0",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "PH",
+  "rafaga": "1",
+  "idMunicion": "2",
+  "nombre_municion": "N",
+  "propiedades": "9",
+  "lista_propiedades": "CC",
+  "link": "0"
+}, {
+  "id": "18",
+  "nombre": "Chain Rifle",
+  "nombre_completo": "Chain Rifle",
+  "CC": "0",
+  "EM": "0",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "13",
+  "rafaga": "1",
+  "idMunicion": "2",
+  "nombre_municion": "N",
+  "propiedades": "7|24",
+  "lista_propiedades": "Intuitive Attack|Direct Template (Large Teardrop)",
+  "link": "0"
+}, {
+  "id": "80",
+  "nombre": "Chain-colt",
+  "nombre_completo": "Chain-colt",
+  "CC": "0",
+  "EM": "0",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "13",
+  "rafaga": "1",
+  "idMunicion": "2",
+  "nombre_municion": "N",
+  "propiedades": "7|25",
+  "lista_propiedades": "Intuitive Attack|Direct Template (Small Teardrop)",
+  "link": "0"
+}, {
+  "id": "147",
+  "nombre": "Chest Mines",
+  "nombre_completo": "Chest Mines# (BS Weapon Mode)",
+  "CC": "0",
+  "EM": "0",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "13",
+  "rafaga": "1",
+  "idMunicion": "8",
+  "nombre_municion": "Shock",
+  "propiedades": "7|11|25",
+  "lista_propiedades": "Intuitive Attack|Disposable (2)|Direct Template (Small Teardrop)",
+  "link": "148"
+}, {
+  "id": "148",
+  "nombre": "Chest Mines",
+  "nombre_completo": "Chest Mines# (CC Weapon Mode)",
+  "CC": "0",
+  "EM": "0",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "13",
+  "rafaga": "1",
+  "idMunicion": "8",
+  "nombre_municion": "Shock",
+  "propiedades": "11|36",
+  "lista_propiedades": "Disposable (2)|CC (+3)",
+  "link": "0"
+}, {
+  "id": "33",
+  "nombre": "Combi Rifle",
+  "nombre_completo": "Combi Rifle",
+  "CC": "0",
+  "EM": "1",
+  "corta": "20|+3",
+  "media": "40|+3",
+  "larga": "80|-3",
+  "maxima": "120|-6",
+  "dano": "13",
+  "rafaga": "3",
+  "idMunicion": "2",
+  "nombre_municion": "N",
+  "propiedades": "15",
+  "lista_propiedades": "Suppressive Fire",
+  "link": "0"
+}, {
+  "id": "19",
+  "nombre": "Contender",
+  "nombre_completo": "Contender",
+  "CC": "0",
+  "EM": "1",
+  "corta": "20|0",
+  "media": "40|+3",
+  "larga": "80|-3",
+  "maxima": "120|-6",
+  "dano": "13",
+  "rafaga": "1",
+  "idMunicion": "9",
+  "nombre_municion": "DA",
+  "propiedades": "2",
+  "lista_propiedades": "Anti-materiel",
+  "link": "0"
+}, {
+  "id": "20",
+  "nombre": "CrazyKoala",
+  "nombre_completo": "CrazyKoala",
+  "CC": "1",
+  "EM": "1",
+  "corta": "MOV 15-10",
+  "media": "BLI 0",
+  "larga": "PB 0",
+  "maxima": "EST 1",
+  "dano": "15",
+  "rafaga": "1",
+  "idMunicion": "8",
+  "nombre_municion": "Shock",
+  "propiedades": "11|23|28|37",
+  "lista_propiedades": "Disposable (2)|Non-Lootable|Deployable|Perimeter",
+  "link": "0"
+}, {
+  "id": "163",
+  "nombre": "D-Charges",
+  "nombre_completo": "D-Charges# CC Mode",
+  "CC": "1",
+  "EM": "1",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "14",
+  "rafaga": "1",
+  "idMunicion": "13",
+  "nombre_municion": "AP+Exp",
+  "propiedades": "12|38",
+  "lista_propiedades": "Disposable (3)|CC (-3)",
+  "link": "0"
+}, {
+  "id": "17",
+  "nombre": "D-Charges",
+  "nombre_completo": "D-Charges# Deployable Mode",
+  "CC": "1",
+  "EM": "1",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "14",
+  "rafaga": "1",
+  "idMunicion": "13",
+  "nombre_municion": "AP+Exp",
+  "propiedades": "2|12|28",
+  "lista_propiedades": "Anti-materiel|Disposable (3)|Deployable",
+  "link": "163"
+}, {
+  "id": "22",
+  "nombre": "D.E.P.",
+  "nombre_completo": "D.E.P.",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|0",
+  "media": "40|+3",
+  "larga": "80|-3",
+  "maxima": "120|-6",
+  "dano": "14",
+  "rafaga": "1",
+  "idMunicion": "13",
+  "nombre_municion": "AP+Exp",
+  "propiedades": "2|10",
+  "lista_propiedades": "Anti-materiel|Disposable (1)",
+  "link": "0"
+}, {
+  "id": "11",
+  "nombre": "DA CC Weapon",
+  "nombre_completo": "DA CC Weapon",
+  "CC": "1",
+  "EM": "0",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "PH",
+  "rafaga": "1",
+  "idMunicion": "9",
+  "nombre_municion": "DA",
+  "propiedades": "2|9",
+  "lista_propiedades": "Anti-materiel|CC",
+  "link": "0"
+}, {
+  "id": "130",
+  "nombre": "Deactivator",
+  "nombre_completo": "Deactivator",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|+6",
+  "media": "40|+3",
+  "larga": "60|-6",
+  "maxima": "-",
+  "dano": "-",
+  "rafaga": "1",
+  "idMunicion": 0,
+  "nombre_municion": "",
+  "propiedades": "4|5|23",
+  "lista_propiedades": "Technical Weapon|BS Attack|Non-Lootable",
+  "link": "0"
+}, {
+  "id": "131",
+  "nombre": "Discover",
+  "nombre_completo": "Discover",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|+3",
+  "media": "80|0",
+  "larga": "120|-3",
+  "maxima": "240|-6",
+  "dano": "-",
+  "rafaga": "-",
+  "idMunicion": 0,
+  "nombre_municion": "",
+  "propiedades": "",
+  "lista_propiedades": "",
+  "link": "0"
+}, {
+  "id": "132",
+  "nombre": "Drop Bears (Deployable Weapon)",
+  "nombre_completo": "Drop Bears (Deployable Weapon)",
+  "CC": "0",
+  "EM": "0",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "13",
+  "rafaga": "1",
+  "idMunicion": "8",
+  "nombre_municion": "Shock",
+  "propiedades": "7|12|25|28",
+  "lista_propiedades": "Intuitive Attack|Disposable (3)|Direct Template (Small Teardrop)|Deployable",
+  "link": "0"
+}, {
+  "id": "96",
+  "nombre": "Drop Bears (Throwing Weapon)",
+  "nombre_completo": "Drop Bears (Throwing Weapon)",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|+3",
+  "media": "40|-6",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "-",
+  "rafaga": "1",
+  "idMunicion": 0,
+  "nombre_municion": "",
+  "propiedades": "3|6|12|33",
+  "lista_propiedades": "Throwing Weapon|Speculative Fire|Disposable (3)|Targetless",
+  "link": "132"
+}, {
+  "id": "7",
+  "nombre": "E|M CC Weapon",
+  "nombre_completo": "E|M CC Weapon",
+  "CC": "1",
+  "EM": "0",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "PH",
+  "rafaga": "1",
+  "idMunicion": "5",
+  "nombre_municion": "N+E|M",
+  "propiedades": "9",
+  "lista_propiedades": "CC",
+  "link": "0"
+}, {
+  "id": "47",
+  "nombre": "E|M Grenade",
+  "nombre_completo": "E|M Grenade",
+  "CC": "0",
+  "EM": "1",
+  "corta": "20|+3",
+  "media": "40|-3",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "13",
+  "rafaga": "1",
+  "idMunicion": "14",
+  "nombre_municion": "E|M",
+  "propiedades": "3|6|26",
+  "lista_propiedades": "Throwing Weapon|Speculative Fire|Impact Template (Circular)",
+  "link": "0"
+}, {
+  "id": "52",
+  "nombre": "E|M Light Grenade Launcher",
+  "nombre_completo": "E|M Light Grenade Launcher",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|0",
+  "media": "40|+3",
+  "larga": "60|-3",
+  "maxima": "120|-6",
+  "dano": "13",
+  "rafaga": "1",
+  "idMunicion": "14",
+  "nombre_municion": "E|M",
+  "propiedades": "6|26",
+  "lista_propiedades": "Speculative Fire|Impact Template (Circular)",
+  "link": "0"
+}, {
+  "id": "23",
+  "nombre": "E|Marat",
+  "nombre_completo": "E|Marat",
+  "CC": "0",
+  "EM": "1",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "13",
+  "rafaga": "1",
+  "idMunicion": "14",
+  "nombre_municion": "E|M",
+  "propiedades": "7|24",
+  "lista_propiedades": "Intuitive Attack|Direct Template (Large Teardrop)",
+  "link": "0"
+}, {
+  "id": "24",
+  "nombre": "E|Mauler",
+  "nombre_completo": "E|Mauler",
+  "CC": "0",
+  "EM": "1",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "13",
+  "rafaga": "1",
+  "idMunicion": "14",
+  "nombre_municion": "E|M",
+  "propiedades": "7|8|12|25|28",
+  "lista_propiedades": "Intuitive Attack|Concealed|Disposable (3)|Direct Template (Small Teardrop)|Deployable",
+  "link": "0"
+}, {
+  "id": "25",
+  "nombre": "E|Mitter",
+  "nombre_completo": "E|Mitter",
+  "CC": "0",
+  "EM": "1",
+  "corta": "20|0",
+  "media": "40|+3",
+  "larga": "80|-3",
+  "maxima": "120|-6",
+  "dano": "13",
+  "rafaga": "1",
+  "idMunicion": "12",
+  "nombre_municion": "E|M2",
+  "propiedades": "",
+  "lista_propiedades": "",
+  "link": "0"
+}, {
+  "id": "46",
+  "nombre": "Eclipse Grenade",
+  "nombre_completo": "Eclipse Grenade",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|+3",
+  "media": "40|-3",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "-",
+  "rafaga": "1",
+  "idMunicion": "22",
+  "nombre_municion": "Eclipse",
+  "propiedades": "3|6|13|22|26|33|30",
+  "lista_propiedades": "Throwing Weapon|Speculative Fire|Dodge|Non-lethal|Impact Template (Circular)|Targetless|Reflective",
+  "link": "0"
+}, {
+  "id": "76",
+  "nombre": "Eclipse Light Grenade Launcher",
+  "nombre_completo": "Eclipse Light Grenade Launcher",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|0",
+  "media": "40|+3",
+  "larga": "60|-3",
+  "maxima": "120|-6",
+  "dano": "-",
+  "rafaga": "1",
+  "idMunicion": "22",
+  "nombre_municion": "Eclipse",
+  "propiedades": "6|13|22|26|33|30",
+  "lista_propiedades": "Speculative Fire|Dodge|Non-lethal|Impact Template (Circular)|Targetless|Reflective",
+  "link": "0"
+}, {
+  "id": "71",
+  "nombre": "Electric Pulse",
+  "nombre_completo": "Electric Pulse",
+  "CC": "1",
+  "EM": "1",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "-",
+  "rafaga": "1",
+  "idMunicion": 0,
+  "nombre_municion": "",
+  "propiedades": "1|9|17|23|22|39",
+  "lista_propiedades": "2 Turns|CC|IMM-2|Non-Lootable|Non-lethal|Automatic (7)",
+  "link": "0"
+}, {
+  "id": "8",
+  "nombre": "EXP CC Weapon",
+  "nombre_completo": "EXP CC Weapon",
+  "CC": "1",
+  "EM": "0",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "PH",
+  "rafaga": "1",
+  "idMunicion": "6",
+  "nombre_municion": "Exp",
+  "propiedades": "2|9",
+  "lista_propiedades": "Anti-materiel|CC",
+  "link": "0"
+}, {
+  "id": "108",
+  "nombre": "FastPanda",
+  "nombre_completo": "FastPanda",
+  "CC": "0",
+  "EM": "0",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "-",
+  "rafaga": "-",
+  "idMunicion": 0,
+  "nombre_municion": "",
+  "propiedades": "",
+  "lista_propiedades": "",
+  "link": "0"
+}, {
+  "id": "159",
+  "nombre": "Feuerbach",
+  "nombre_completo": "Feuerbach# Blast Mode",
+  "CC": "0",
+  "EM": "1",
+  "corta": "20|-3",
+  "media": "40|0",
+  "larga": "80|+3",
+  "maxima": "120|0",
+  "dano": "14",
+  "rafaga": "1",
+  "idMunicion": "6",
+  "nombre_municion": "Exp",
+  "propiedades": "2",
+  "lista_propiedades": "Anti-materiel",
+  "link": "0"
+}, {
+  "id": "30",
+  "nombre": "Feuerbach",
+  "nombre_completo": "Feuerbach# Burst Mode",
+  "CC": "0",
+  "EM": "1",
+  "corta": "20|-3",
+  "media": "40|0",
+  "larga": "80|+3",
+  "maxima": "120|0",
+  "dano": "14",
+  "rafaga": "2",
+  "idMunicion": "10",
+  "nombre_municion": "AP+DA",
+  "propiedades": "2",
+  "lista_propiedades": "Anti-materiel",
+  "link": "159"
+}, {
+  "id": "82",
+  "nombre": "Flammenspeer",
+  "nombre_completo": "Flammenspeer# (Blast Mode)",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|-3",
+  "media": "40|0",
+  "larga": "80|+3",
+  "maxima": "120|-3",
+  "dano": "14",
+  "rafaga": "1",
+  "idMunicion": "24",
+  "nombre_municion": "Fire",
+  "propiedades": "11|26",
+  "lista_propiedades": "Disposable (2)|Impact Template (Circular)",
+  "link": "120"
+}, {
+  "id": "120",
+  "nombre": "Flammenspeer",
+  "nombre_completo": "Flammenspeer# (Hit Mode)",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|-3",
+  "media": "40|0",
+  "larga": "80|+3",
+  "maxima": "120|-3",
+  "dano": "15",
+  "rafaga": "1",
+  "idMunicion": "24",
+  "nombre_municion": "Fire",
+  "propiedades": "11",
+  "lista_propiedades": "Disposable (2)",
+  "link": "0"
+}, {
+  "id": "48",
+  "nombre": "Flash Grenade",
+  "nombre_completo": "Flash Grenade",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|+3",
+  "media": "40|-3",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "13",
+  "rafaga": "1",
+  "idMunicion": "23",
+  "nombre_municion": "Flash",
+  "propiedades": "3|6|26",
+  "lista_propiedades": "Throwing Weapon|Speculative Fire|Impact Template (Circular)",
+  "link": "0"
+}, {
+  "id": "53",
+  "nombre": "Flash Light Grenade Launcher",
+  "nombre_completo": "Flash Light Grenade Launcher",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|0",
+  "media": "40|+3",
+  "larga": "60|-3",
+  "maxima": "120|-6",
+  "dano": "13",
+  "rafaga": "1",
+  "idMunicion": "23",
+  "nombre_municion": "Flash",
+  "propiedades": "6|26",
+  "lista_propiedades": "Speculative Fire|Impact Template (Circular)",
+  "link": "0"
+}, {
+  "id": "72",
+  "nombre": "Flash Pulse",
+  "nombre_completo": "Flash Pulse",
+  "CC": "0",
+  "EM": "1",
+  "corta": "20|0",
+  "media": "60|+3",
+  "larga": "120|-3",
+  "maxima": "240|-6",
+  "dano": "13",
+  "rafaga": "1",
+  "idMunicion": "23",
+  "nombre_municion": "Flash",
+  "propiedades": "4|23",
+  "lista_propiedades": "Technical Weapon|Non-Lootable",
+  "link": "0"
+}, {
+  "id": "66",
+  "nombre": "Forward Observer",
+  "nombre_completo": "Forward Observer",
+  "CC": "1",
+  "EM": "1",
+  "corta": "20|0",
+  "media": "60|0",
+  "larga": "120|-3",
+  "maxima": "240|-6",
+  "dano": "-",
+  "rafaga": "2",
+  "idMunicion": 0,
+  "nombre_municion": "",
+  "propiedades": "4|22|23",
+  "lista_propiedades": "Technical Weapon|Non-lethal|Non-Lootable",
+  "link": "0"
+}, {
+  "id": "44",
+  "nombre": "Grenade",
+  "nombre_completo": "Grenade",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|+3",
+  "media": "40|-3",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "13",
+  "rafaga": "1",
+  "idMunicion": "2",
+  "nombre_municion": "N",
+  "propiedades": "3|6|26",
+  "lista_propiedades": "Throwing Weapon|Speculative Fire|Impact Template (Circular)",
+  "link": "0"
+}, {
+  "id": "57",
+  "nombre": "Heavy Flamethrower",
+  "nombre_completo": "Heavy Flamethrower",
+  "CC": "0",
+  "EM": "0",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "14",
+  "rafaga": "1",
+  "idMunicion": "24",
+  "nombre_municion": "Fire",
+  "propiedades": "7|24",
+  "lista_propiedades": "Intuitive Attack|Direct Template (Large Teardrop)",
+  "link": "0"
+}, {
+  "id": "55",
+  "nombre": "Heavy Grenade Launcher",
+  "nombre_completo": "Heavy Grenade Launcher",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|-3",
+  "media": "80|0",
+  "larga": "120|-3",
+  "maxima": "240|-6",
+  "dano": "14",
+  "rafaga": "1",
+  "idMunicion": "2",
+  "nombre_municion": "N",
+  "propiedades": "6|26|23",
+  "lista_propiedades": "Speculative Fire|Impact Template (Circular)|Non-Lootable",
+  "link": "0"
+}, {
+  "id": "107",
+  "nombre": "Heavy Pistol",
+  "nombre_completo": "Heavy Pistol",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|+3",
+  "media": "40|0",
+  "larga": "60|-6",
+  "maxima": "-",
+  "dano": "14",
+  "rafaga": "2 (1 in CC)",
+  "idMunicion": "8",
+  "nombre_municion": "Shock",
+  "propiedades": "9",
+  "lista_propiedades": "CC",
+  "link": "0"
+}, {
+  "id": "89",
+  "nombre": "Heavy Rocket Launcher",
+  "nombre_completo": "Heavy Rocket Launcher# (Blast Mode)",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|-3",
+  "media": "40|0",
+  "larga": "80|+3",
+  "maxima": "120|-3",
+  "dano": "14",
+  "rafaga": "2",
+  "idMunicion": "24",
+  "nombre_municion": "Fire",
+  "propiedades": "26",
+  "lista_propiedades": "Impact Template (Circular)",
+  "link": "124"
+}, {
+  "id": "124",
+  "nombre": "Heavy Rocket Launcher",
+  "nombre_completo": "Heavy Rocket Launcher# (Hit Mode)",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|-3",
+  "media": "40|0",
+  "larga": "80|+3",
+  "maxima": "120|-3",
+  "dano": "15",
+  "rafaga": "2",
+  "idMunicion": "24",
+  "nombre_municion": "Fire",
+  "propiedades": "",
+  "lista_propiedades": "",
+  "link": "0"
+}, {
+  "id": "134",
+  "nombre": "Heavy Shotgun",
+  "nombre_completo": "Heavy Shotgun# (AP Mode)",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|+6",
+  "media": "40|0",
+  "larga": "60|-3",
+  "maxima": "-",
+  "dano": "15",
+  "rafaga": "2",
+  "idMunicion": "3",
+  "nombre_municion": "AP",
+  "propiedades": "",
+  "lista_propiedades": "",
+  "link": "0"
+}, {
+  "id": "29",
+  "nombre": "Heavy Shotgun",
+  "nombre_completo": "Heavy Shotgun# (Blast Mode)",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|+6",
+  "media": "40|0",
+  "larga": "60|-3",
+  "maxima": "-",
+  "dano": "15",
+  "rafaga": "2",
+  "idMunicion": "2",
+  "nombre_municion": "N",
+  "propiedades": "27",
+  "lista_propiedades": "Impact Template (Small Teardrop)",
+  "link": "134"
+}, {
+  "id": "79",
+  "nombre": "Hedgehog Weapon",
+  "nombre_completo": "Hedgehog Weapon",
+  "CC": "1",
+  "EM": "0",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "PH",
+  "rafaga": "-",
+  "idMunicion": "2",
+  "nombre_municion": "N",
+  "propiedades": "9",
+  "lista_propiedades": "CC",
+  "link": "0"
+}, {
+  "id": "2",
+  "nombre": "HMG",
+  "nombre_completo": "HMG",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|-3",
+  "media": "40|0",
+  "larga": "80|+3",
+  "maxima": "120|-3",
+  "dano": "15",
+  "rafaga": "4",
+  "idMunicion": "2",
+  "nombre_municion": "N",
+  "propiedades": "15",
+  "lista_propiedades": "Suppressive Fire",
+  "link": "0"
+}, {
+  "id": "128",
+  "nombre": "Hyper-Rapid Magnetic Cannon",
+  "nombre_completo": "Hyper-Rapid Magnetic Cannon# (Anti-materiel Mode)",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|-3",
+  "media": "40|0",
+  "larga": "80|+3",
+  "maxima": "120|0",
+  "dano": "15",
+  "rafaga": "1",
+  "idMunicion": "9",
+  "nombre_municion": "DA",
+  "propiedades": "2|19|23",
+  "lista_propiedades": "Anti-materiel|Light MULTI|Non-Lootable",
+  "link": "0"
+}, {
+  "id": "15",
+  "nombre": "Hyper-Rapid Magnetic Cannon",
+  "nombre_completo": "Hyper-Rapid Magnetic Cannon# (Burst Mode)",
+  "CC": "0",
+  "EM": "1",
+  "corta": "20|-3",
+  "media": "40|0",
+  "larga": "80|+3",
+  "maxima": "120|0",
+  "dano": "15",
+  "rafaga": "5",
+  "idMunicion": "35",
+  "nombre_municion": "AP|Shock",
+  "propiedades": "15|19|23",
+  "lista_propiedades": "Suppressive Fire|Light MULTI|Non-Lootable",
+  "link": "128"
+}, {
+  "id": "87",
+  "nombre": "Jammer",
+  "nombre_completo": "Jammer",
+  "CC": "0",
+  "EM": "1",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "13",
+  "rafaga": "1",
+  "idMunicion": 0,
+  "nombre_municion": "",
+  "propiedades": "4|7|14|32|34|35",
+  "lista_propiedades": "Technical Weapon|Intuitive Attack|State: Isolated|No LoF|Zone of Control|Comms. Attack",
+  "link": "0"
+}, {
+  "id": "95",
+  "nombre": "K1 Combi Rifle",
+  "nombre_completo": "K1 Combi Rifle",
+  "CC": "0",
+  "EM": "1",
+  "corta": "20|+3",
+  "media": "40|+3",
+  "larga": "80|-3",
+  "maxima": "120|-6",
+  "dano": "12",
+  "rafaga": "3",
+  "idMunicion": "31",
+  "nombre_municion": "K1",
+  "propiedades": "2|15",
+  "lista_propiedades": "Anti-materiel|Suppressive Fire",
+  "link": "0"
+}, {
+  "id": "110",
+  "nombre": "K1 Sniper",
+  "nombre_completo": "K1 Sniper",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|-3",
+  "media": "40|0",
+  "larga": "120|+3",
+  "maxima": "240|-3",
+  "dano": "12",
+  "rafaga": "2",
+  "idMunicion": "31",
+  "nombre_municion": "K1",
+  "propiedades": "2",
+  "lista_propiedades": "Anti-materiel",
+  "link": "0"
+}, {
+  "id": "49",
+  "nombre": "Katyusha MRL",
+  "nombre_completo": "Katyusha MRL# (Blast Mode)",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|0",
+  "media": "40|+3",
+  "larga": "100|-3",
+  "maxima": "120|-6",
+  "dano": "14",
+  "rafaga": "1",
+  "idMunicion": "9",
+  "nombre_municion": "DA",
+  "propiedades": "2|6|23|26",
+  "lista_propiedades": "Anti-materiel|Speculative Fire|Non-Lootable|Impact Template (Circular)",
+  "link": "122"
+}, {
+  "id": "122",
+  "nombre": "Katyusha MRL",
+  "nombre_completo": "Katyusha MRL# (Guided Mode)",
+  "CC": "0",
+  "EM": "0",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "14",
+  "rafaga": "1",
+  "idMunicion": "9",
+  "nombre_municion": "DA",
+  "propiedades": "2|16|23|26",
+  "lista_propiedades": "Anti-materiel|Guided|Non-Lootable|Impact Template (Circular)",
+  "link": "0"
+}, {
+  "id": "21",
+  "nombre": "Knife",
+  "nombre_completo": "Knife",
+  "CC": "1",
+  "EM": "0",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "PH-1",
+  "rafaga": "1",
+  "idMunicion": "8",
+  "nombre_municion": "Shock",
+  "propiedades": "9|31",
+  "lista_propiedades": "CC|Silent",
+  "link": "0"
+}, {
+  "id": "56",
+  "nombre": "Light Flamethrower",
+  "nombre_completo": "Light Flamethrower",
+  "CC": "0",
+  "EM": "0",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "13",
+  "rafaga": "1",
+  "idMunicion": "24",
+  "nombre_municion": "Fire",
+  "propiedades": "7|25",
+  "lista_propiedades": "Intuitive Attack|Direct Template (Small Teardrop)",
+  "link": "0"
+}, {
+  "id": "51",
+  "nombre": "Light Grenade Launcher",
+  "nombre_completo": "Light Grenade Launcher",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|0",
+  "media": "40|+3",
+  "larga": "60|-3",
+  "maxima": "120|-6",
+  "dano": "13",
+  "rafaga": "1",
+  "idMunicion": "2",
+  "nombre_municion": "N",
+  "propiedades": "6|26",
+  "lista_propiedades": "Speculative Fire|Impact Template (Circular)",
+  "link": "0"
+}, {
+  "id": "88",
+  "nombre": "Light Rocket Launcher",
+  "nombre_completo": "Light Rocket Launcher# (Blast Mode)",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|0",
+  "media": "60|+3",
+  "larga": "80|-3",
+  "maxima": "120|-6",
+  "dano": "13",
+  "rafaga": "2",
+  "idMunicion": "24",
+  "nombre_municion": "Fire",
+  "propiedades": "26",
+  "lista_propiedades": "Impact Template (Circular)",
+  "link": "123"
+}, {
+  "id": "123",
+  "nombre": "Light Rocket Launcher",
+  "nombre_completo": "Light Rocket Launcher# (Hit Mode)",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|0",
+  "media": "60|+3",
+  "larga": "80|-3",
+  "maxima": "120|-6",
+  "dano": "14",
+  "rafaga": "2",
+  "idMunicion": "24",
+  "nombre_municion": "Fire",
+  "propiedades": "",
+  "lista_propiedades": "",
+  "link": "0"
+}, {
+  "id": "28",
+  "nombre": "Light Shotgun",
+  "nombre_completo": "Light Shotgun",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|+6",
+  "media": "40|0",
+  "larga": "60|-3",
+  "maxima": "-",
+  "dano": "13",
+  "rafaga": "2",
+  "idMunicion": "2",
+  "nombre_municion": "N",
+  "propiedades": "27",
+  "lista_propiedades": "Impact Template (Small Teardrop)",
+  "link": "0"
+}, {
+  "id": "150",
+  "nombre": "MadTrap",
+  "nombre_completo": "MadTrap",
+  "CC": "0",
+  "EM": "0",
+  "corta": "MOV 15-10",
+  "media": "BLI 0",
+  "larga": "PB 0",
+  "maxima": "EST 1",
+  "dano": "-",
+  "rafaga": "1",
+  "idMunicion": "1",
+  "nombre_municion": "Adhesive",
+  "propiedades": "11|22|23|28|37",
+  "lista_propiedades": "Disposable (2)|Non-lethal|Non-Lootable|Deployable|Perimeter",
+  "link": "0"
+}, {
+  "id": "60",
+  "nombre": "Marker",
+  "nombre_completo": "Marker",
+  "CC": "0",
+  "EM": "1",
+  "corta": "20|0",
+  "media": "40|+3",
+  "larga": "80|-3",
+  "maxima": "120|-6",
+  "dano": "-",
+  "rafaga": "1",
+  "idMunicion": 0,
+  "nombre_municion": "",
+  "propiedades": "6|11|18|22|33",
+  "lista_propiedades": "Speculative Fire|Disposable (2)|Indiscriminate|Non-lethal|Targetless",
+  "link": "0"
+}, {
+  "id": "84",
+  "nombre": "Marksman Rifle",
+  "nombre_completo": "Marksman Rifle",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|-3",
+  "media": "60|+3",
+  "larga": "100|-3",
+  "maxima": "120|-6",
+  "dano": "13",
+  "rafaga": "3",
+  "idMunicion": "2",
+  "nombre_municion": "N",
+  "propiedades": "15",
+  "lista_propiedades": "Suppressive Fire",
+  "link": "0"
+}, {
+  "id": "142",
+  "nombre": "MediKit",
+  "nombre_completo": "MediKit",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|+3",
+  "media": "40|0",
+  "larga": "60|-6",
+  "maxima": "-",
+  "dano": "-",
+  "rafaga": "1",
+  "idMunicion": 0,
+  "nombre_municion": "",
+  "propiedades": "22",
+  "lista_propiedades": "Non-lethal",
+  "link": "0"
+}, {
+  "id": "140",
+  "nombre": "Missile Launcher",
+  "nombre_completo": "Missile Launcher# (Anti-tank Mode)",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|-3",
+  "media": "60|0",
+  "larga": "100|+3",
+  "maxima": "240|-3",
+  "dano": "14",
+  "rafaga": "1",
+  "idMunicion": "13",
+  "nombre_municion": "AP+Exp",
+  "propiedades": "2",
+  "lista_propiedades": "Anti-materiel",
+  "link": "0"
+}, {
+  "id": "58",
+  "nombre": "Missile Launcher",
+  "nombre_completo": "Missile Launcher# (Blast Mode)",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|-3",
+  "media": "60|0",
+  "larga": "100|+3",
+  "maxima": "240|-3",
+  "dano": "14",
+  "rafaga": "1",
+  "idMunicion": "6",
+  "nombre_municion": "Exp",
+  "propiedades": "2|26",
+  "lista_propiedades": "Anti-materiel|Impact Template (Circular)",
+  "link": "140"
+}, {
+  "id": "64",
+  "nombre": "Mk12",
+  "nombre_completo": "Mk12",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|0",
+  "media": "60|+3",
+  "larga": "80|-3",
+  "maxima": "120|-6",
+  "dano": "15",
+  "rafaga": "3",
+  "idMunicion": "2",
+  "nombre_municion": "N",
+  "propiedades": "15",
+  "lista_propiedades": "Suppressive Fire",
+  "link": "0"
+}, {
+  "id": "91",
+  "nombre": "Molotok",
+  "nombre_completo": "Molotok",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|0",
+  "media": "60|+3",
+  "larga": "80|-3",
+  "maxima": "120|-6",
+  "dano": "13",
+  "rafaga": "4",
+  "idMunicion": "3",
+  "nombre_municion": "AP",
+  "propiedades": "15",
+  "lista_propiedades": "Suppressive Fire",
+  "link": "0"
+}, {
+  "id": "9",
+  "nombre": "Monofilament CC Weapon",
+  "nombre_completo": "Monofilament CC Weapon",
+  "CC": "1",
+  "EM": "1",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "12",
+  "rafaga": "1",
+  "idMunicion": "7",
+  "nombre_municion": "Monofilament",
+  "propiedades": "9",
+  "lista_propiedades": "CC",
+  "link": "0"
+}, {
+  "id": "62",
+  "nombre": "Monofilament Mines",
+  "nombre_completo": "Monofilament Mines",
+  "CC": "0",
+  "EM": "1",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "12",
+  "rafaga": "1",
+  "idMunicion": "7",
+  "nombre_municion": "Monofilament",
+  "propiedades": "7|8|12|25|28",
+  "lista_propiedades": "Intuitive Attack|Concealed|Disposable (3)|Direct Template (Small Teardrop)|Deployable",
+  "link": "0"
+}, {
+  "id": "117",
+  "nombre": "MULTI HMG",
+  "nombre_completo": "MULTI HMG# (Anti-materiel Mode)",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|-3",
+  "media": "40|0",
+  "larga": "80|+3",
+  "maxima": "120|-3",
+  "dano": "15",
+  "rafaga": "1",
+  "idMunicion": "6",
+  "nombre_municion": "Exp",
+  "propiedades": "2|21|23",
+  "lista_propiedades": "Anti-materiel|Heavy MULTI|Non-Lootable",
+  "link": "161"
+}, {
+  "id": "161",
+  "nombre": "MULTI HMG",
+  "nombre_completo": "MULTI HMG# (Anti-materiel Mode)",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|-3",
+  "media": "40|0",
+  "larga": "80|+3",
+  "maxima": "120|-3",
+  "dano": "15",
+  "rafaga": "1",
+  "idMunicion": "29",
+  "nombre_municion": "Stun",
+  "propiedades": "21|22|23",
+  "lista_propiedades": "Heavy MULTI|Non-lethal|Non-Lootable",
+  "link": "0"
+}, {
+  "id": "4",
+  "nombre": "MULTI HMG",
+  "nombre_completo": "MULTI HMG# (Burst Mode)",
+  "CC": "0",
+  "EM": "1",
+  "corta": "20|-3",
+  "media": "40|0",
+  "larga": "80|+3",
+  "maxima": "120|-3",
+  "dano": "15",
+  "rafaga": "4",
+  "idMunicion": "35",
+  "nombre_municion": "AP|Shock",
+  "propiedades": "15|21|23",
+  "lista_propiedades": "Suppressive Fire|Heavy MULTI|Non-Lootable",
+  "link": "117"
+}, {
+  "id": "138",
+  "nombre": "MULTI Rifle",
+  "nombre_completo": "MULTI Rifle# (Anti-materiel Mode)",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|+3",
+  "media": "40|+3",
+  "larga": "80|-3",
+  "maxima": "120|-6",
+  "dano": "13",
+  "rafaga": "1",
+  "idMunicion": "9",
+  "nombre_municion": "DA",
+  "propiedades": "2|19",
+  "lista_propiedades": "Anti-materiel|Light MULTI",
+  "link": "164"
+}, {
+  "id": "41",
+  "nombre": "MULTI Rifle",
+  "nombre_completo": "MULTI Rifle# (Burst Mode)",
+  "CC": "0",
+  "EM": "1",
+  "corta": "20|+3",
+  "media": "40|+3",
+  "larga": "80|-3",
+  "maxima": "120|-6",
+  "dano": "13",
+  "rafaga": "3",
+  "idMunicion": "35",
+  "nombre_municion": "AP|Shock",
+  "propiedades": "15|19",
+  "lista_propiedades": "Suppressive Fire|Light MULTI",
+  "link": "138"
+}, {
+  "id": "164",
+  "nombre": "MULTI Rifle",
+  "nombre_completo": "MULTI Rifle# (Stun Mode)",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|+3",
+  "media": "40|+3",
+  "larga": "80|-3",
+  "maxima": "120|-6",
+  "dano": "13",
+  "rafaga": "1",
+  "idMunicion": "29",
+  "nombre_municion": "Stun",
+  "propiedades": "19|22",
+  "lista_propiedades": "Light MULTI|Non-lethal",
+  "link": "0"
+}, {
+  "id": "136",
+  "nombre": "MULTI Sniper",
+  "nombre_completo": "MULTI Sniper# (Anti-materiel Mode)",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|-3",
+  "media": "40|0",
+  "larga": "120|+3",
+  "maxima": "240|-3",
+  "dano": "15",
+  "rafaga": "2",
+  "idMunicion": "9",
+  "nombre_municion": "DA",
+  "propiedades": "2|20",
+  "lista_propiedades": "Anti-materiel|Medium MULTI",
+  "link": "165"
+}, {
+  "id": "36",
+  "nombre": "MULTI Sniper",
+  "nombre_completo": "MULTI Sniper# (AP Mode)",
+  "CC": "0",
+  "EM": "1",
+  "corta": "20|-3",
+  "media": "40|0",
+  "larga": "120|+3",
+  "maxima": "240|-3",
+  "dano": "15",
+  "rafaga": "2",
+  "idMunicion": "3",
+  "nombre_municion": "AP",
+  "propiedades": "20",
+  "lista_propiedades": "Medium MULTI",
+  "link": "136"
+}, {
+  "id": "165",
+  "nombre": "MULTI Sniper",
+  "nombre_completo": "MULTI Sniper# (Stun Mode)",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|-3",
+  "media": "40|0",
+  "larga": "120|+3",
+  "maxima": "240|-3",
+  "dano": "15",
+  "rafaga": "1",
+  "idMunicion": "29",
+  "nombre_municion": "Stun",
+  "propiedades": "20|22",
+  "lista_propiedades": "Medium MULTI|Non-lethal",
+  "link": "0"
+}, {
+  "id": "65",
+  "nombre": "Nanopulser",
+  "nombre_completo": "Nanopulser",
+  "CC": "0",
+  "EM": "1",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "13",
+  "rafaga": "1",
+  "idMunicion": "26",
+  "nombre_municion": "Nanotec",
+  "propiedades": "7|23|25",
+  "lista_propiedades": "Intuitive Attack|Non-Lootable|Direct Template (Small Teardrop)",
+  "link": "0"
+}, {
+  "id": "99",
+  "nombre": "Nimbus Grenades",
+  "nombre_completo": "Nimbus Grenades",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|+3",
+  "media": "40|-3",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "-",
+  "rafaga": "1",
+  "idMunicion": "33",
+  "nombre_municion": "Nimbus",
+  "propiedades": "3|6|22|26|30|33",
+  "lista_propiedades": "Throwing Weapon|Speculative Fire|Non-lethal|Impact Template (Circular)|Reflective|Targetless",
+  "link": "0"
+}, {
+  "id": "105",
+  "nombre": "Nimbus Light Grenade Launcher",
+  "nombre_completo": "Nimbus Light Grenade Launcher",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|0",
+  "media": "40|+3",
+  "larga": "60|-3",
+  "maxima": "120|-6",
+  "dano": "13",
+  "rafaga": "1",
+  "idMunicion": "33",
+  "nombre_municion": "Nimbus",
+  "propiedades": "6|22|26|30|33",
+  "lista_propiedades": "Speculative Fire|Non-lethal|Impact Template (Circular)|Reflective|Targetless",
+  "link": "0"
+}, {
+  "id": "139",
+  "nombre": "Nimbus Plus Grenades",
+  "nombre_completo": "Nimbus Plus Grenades",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|+3",
+  "media": "40|-3",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "-",
+  "rafaga": "1",
+  "idMunicion": "33",
+  "nombre_municion": "Nimbus",
+  "propiedades": "3|6|22|26|30|33",
+  "lista_propiedades": "Throwing Weapon|Speculative Fire|Non-lethal|Impact Template (Circular)|Reflective|Targetless",
+  "link": "0"
+}, {
+  "id": "93",
+  "nombre": "Nullifier",
+  "nombre_completo": "Nullifier",
+  "CC": "0",
+  "EM": "1",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "-",
+  "rafaga": "1",
+  "idMunicion": 0,
+  "nombre_municion": "",
+  "propiedades": "",
+  "lista_propiedades": "",
+  "link": "0"
+}, {
+  "id": "67",
+  "nombre": "Ojotnik",
+  "nombre_completo": "Ojotnik",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|-3",
+  "media": "80|+3",
+  "larga": "100|0",
+  "maxima": "240|-6",
+  "dano": "14",
+  "rafaga": "2",
+  "idMunicion": "3",
+  "nombre_municion": "AP",
+  "propiedades": "",
+  "lista_propiedades": "",
+  "link": "0"
+}, {
+  "id": "68",
+  "nombre": "Panzerfaust",
+  "nombre_completo": "Panzerfaust",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|-3",
+  "media": "40|0",
+  "larga": "80|+3",
+  "maxima": "120|-3",
+  "dano": "14",
+  "rafaga": "1",
+  "idMunicion": "13",
+  "nombre_municion": "AP+Exp",
+  "propiedades": "2|11",
+  "lista_propiedades": "Anti-materiel|Disposable (2)",
+  "link": "0"
+}, {
+  "id": "69",
+  "nombre": "Pistol",
+  "nombre_completo": "Pistol",
+  "CC": "1",
+  "EM": "0",
+  "corta": "20|+3",
+  "media": "40|0",
+  "larga": "60|-6",
+  "maxima": "-",
+  "dano": "11",
+  "rafaga": "2 (1 in CC)",
+  "idMunicion": "2",
+  "nombre_municion": "N",
+  "propiedades": "9",
+  "lista_propiedades": "CC",
+  "link": "0"
+}, {
+  "id": "154",
+  "nombre": "Pitcher",
+  "nombre_completo": "Pitcher",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|0",
+  "media": "40|+3",
+  "larga": "60|-3",
+  "maxima": "120|-6",
+  "dano": "-",
+  "rafaga": "1",
+  "idMunicion": 0,
+  "nombre_municion": "",
+  "propiedades": "11|18|22|6|33",
+  "lista_propiedades": "Disposable (2)|Indiscriminate|Non-lethal|Speculative Fire|Targetless",
+  "link": "0"
+}, {
+  "id": "111",
+  "nombre": "Plasma Carbine",
+  "nombre_completo": "Plasma Carbine# (Blast Mode)",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|+3",
+  "media": "40|+3",
+  "larga": "80|-3",
+  "maxima": "100|-6",
+  "dano": "13",
+  "rafaga": "2",
+  "idMunicion": "34",
+  "nombre_municion": "Plasma",
+  "propiedades": "27",
+  "lista_propiedades": "Impact Template (Small Teardrop)",
+  "link": "129"
+}, {
+  "id": "129",
+  "nombre": "Plasma Carbine",
+  "nombre_completo": "Plasma Carbine# (Hit Mode)",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|+3",
+  "media": "40|+3",
+  "larga": "80|-3",
+  "maxima": "100|-6",
+  "dano": "14",
+  "rafaga": "2",
+  "idMunicion": "34",
+  "nombre_municion": "Plasma",
+  "propiedades": "",
+  "lista_propiedades": "",
+  "link": "0"
+}, {
+  "id": "40",
+  "nombre": "Plasma Rifle",
+  "nombre_completo": "Plasma Rifle# (Blast Mode)",
+  "CC": "0",
+  "EM": "1",
+  "corta": "20|+3",
+  "media": "40|+3",
+  "larga": "80|-3",
+  "maxima": "120|-6",
+  "dano": "13",
+  "rafaga": "3",
+  "idMunicion": "34",
+  "nombre_municion": "Plasma",
+  "propiedades": "15|27",
+  "lista_propiedades": "Suppressive Fire|Impact Template (Small Teardrop)",
+  "link": "137"
+}, {
+  "id": "137",
+  "nombre": "Plasma Rifle",
+  "nombre_completo": "Plasma Rifle# (Hit Mode)",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|+3",
+  "media": "40|+3",
+  "larga": "80|-3",
+  "maxima": "120|-6",
+  "dano": "14",
+  "rafaga": "3",
+  "idMunicion": "34",
+  "nombre_municion": "Plasma",
+  "propiedades": "15",
+  "lista_propiedades": "Suppressive Fire",
+  "link": "0"
+}, {
+  "id": "113",
+  "nombre": "Plasma Sniper",
+  "nombre_completo": "Plasma Sniper# (Blast Mode)",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|-3",
+  "media": "40|0",
+  "larga": "120|+3",
+  "maxima": "240|-3",
+  "dano": "14",
+  "rafaga": "2",
+  "idMunicion": "34",
+  "nombre_municion": "Plasma",
+  "propiedades": "27",
+  "lista_propiedades": "Impact Template (Small Teardrop)",
+  "link": "135"
+}, {
+  "id": "135",
+  "nombre": "Plasma Sniper",
+  "nombre_completo": "Plasma Sniper# (Hit Mode)",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|-3",
+  "media": "40|0",
+  "larga": "120|+3",
+  "maxima": "240|-3",
+  "dano": "15",
+  "rafaga": "2",
+  "idMunicion": "34",
+  "nombre_municion": "Plasma",
+  "propiedades": "",
+  "lista_propiedades": "",
+  "link": "0"
+}, {
+  "id": "16",
+  "nombre": "Portable Autocannon",
+  "nombre_completo": "Portable Autocannon",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|-3",
+  "media": "40|0",
+  "larga": "80|+3",
+  "maxima": "120|-3",
+  "dano": "15",
+  "rafaga": "2",
+  "idMunicion": "13",
+  "nombre_municion": "AP+Exp",
+  "propiedades": "2",
+  "lista_propiedades": "Anti-materiel",
+  "link": "0"
+}, {
+  "id": "145",
+  "nombre": "Pulzar",
+  "nombre_completo": "Pulzar",
+  "CC": "0",
+  "EM": "0",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "13",
+  "rafaga": "1",
+  "idMunicion": "26",
+  "nombre_municion": "Nanotec",
+  "propiedades": "7|23|24",
+  "lista_propiedades": "Intuitive Attack|Non-Lootable|Direct Template (Large Teardrop)",
+  "link": "0"
+}, {
+  "id": "152",
+  "nombre": "Red Fury",
+  "nombre_completo": "Red Fury",
+  "CC": "0",
+  "EM": "1",
+  "corta": "20|0",
+  "media": "60|+3",
+  "larga": "100|-3",
+  "maxima": "120|-6",
+  "dano": "13",
+  "rafaga": "4",
+  "idMunicion": "8",
+  "nombre_municion": "Shock",
+  "propiedades": "15",
+  "lista_propiedades": "Suppressive Fire",
+  "link": "0"
+}, {
+  "id": "31",
+  "nombre": "Rifle",
+  "nombre_completo": "Rifle",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|0",
+  "media": "40|+3",
+  "larga": "80|-3",
+  "maxima": "120|-6",
+  "dano": "13",
+  "rafaga": "3",
+  "idMunicion": "2",
+  "nombre_municion": "N",
+  "propiedades": "15",
+  "lista_propiedades": "Suppressive Fire",
+  "link": "0"
+}, {
+  "id": "73",
+  "nombre": "Sepsitor",
+  "nombre_completo": "Sepsitor",
+  "CC": "1",
+  "EM": "1",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "WIP",
+  "rafaga": "1",
+  "idMunicion": 0,
+  "nombre_municion": "",
+  "propiedades": "7|11|23|24",
+  "lista_propiedades": "Intuitive Attack|Disposable (2)|Non-Lootable|Direct Template (Large Teardrop)",
+  "link": "0"
+}, {
+  "id": "114",
+  "nombre": "Sepsitor Plus",
+  "nombre_completo": "Sepsitor Plus",
+  "CC": "0",
+  "EM": "0",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "WIP",
+  "rafaga": "1",
+  "idMunicion": 0,
+  "nombre_municion": "",
+  "propiedades": "7|23|24",
+  "lista_propiedades": "Intuitive Attack|Non-Lootable|Direct Template (Large Teardrop)",
+  "link": "0"
+}, {
+  "id": "151",
+  "nombre": "SF Mode",
+  "nombre_completo": "SF Mode",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|0",
+  "media": "40|0",
+  "larga": "60|-3",
+  "maxima": "-",
+  "dano": "*",
+  "rafaga": "3",
+  "idMunicion": 0,
+  "nombre_municion": "",
+  "propiedades": "",
+  "lista_propiedades": "",
+  "link": "0"
+}, {
+  "id": "10",
+  "nombre": "Shock CC Weapon",
+  "nombre_completo": "Shock CC Weapon",
+  "CC": "1",
+  "EM": "0",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "PH",
+  "rafaga": "1",
+  "idMunicion": "8",
+  "nombre_municion": "Shock",
+  "propiedades": "9",
+  "lista_propiedades": "CC",
+  "link": "0"
+}, {
+  "id": "155",
+  "nombre": "Shock Marksman Rifle",
+  "nombre_completo": "Shock Marksman Rifle",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|-3",
+  "media": "60|+3",
+  "larga": "100|-3",
+  "maxima": "120|-6",
+  "dano": "13",
+  "rafaga": "3",
+  "idMunicion": "8",
+  "nombre_municion": "Shock",
+  "propiedades": "15",
+  "lista_propiedades": "Suppressive Fire",
+  "link": "0"
+}, {
+  "id": "144",
+  "nombre": "SimbioBombs",
+  "nombre_completo": "SimbioBombs",
+  "CC": "0",
+  "EM": "0",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "",
+  "rafaga": "",
+  "idMunicion": 0,
+  "nombre_municion": "",
+  "propiedades": "",
+  "lista_propiedades": "",
+  "link": "0"
+}, {
+  "id": "115",
+  "nombre": "Smart Heavey Rocket Launcher",
+  "nombre_completo": "Smart Heavey Rocket Launcher# (Blast Mode)",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|-3",
+  "media": "40|0",
+  "larga": "80|+3",
+  "maxima": "120|-3",
+  "dano": "14",
+  "rafaga": "2",
+  "idMunicion": "24",
+  "nombre_municion": "Fire",
+  "propiedades": "26",
+  "lista_propiedades": "Impact Template (Circular)",
+  "link": "0"
+}, {
+  "id": "90",
+  "nombre": "Smart Heavy Rocket Launcher",
+  "nombre_completo": "Smart Heavy Rocket Launcher# (Guided Mode)",
+  "CC": "0",
+  "EM": "0",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "14",
+  "rafaga": "1",
+  "idMunicion": "24",
+  "nombre_municion": "Fire",
+  "propiedades": "16|26",
+  "lista_propiedades": "Guided|Impact Template (Circular)",
+  "link": "115"
+}, {
+  "id": "102",
+  "nombre": "Smart Missile Launcher",
+  "nombre_completo": "Smart Missile Launcher# (Auto-Aim Mode)",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|0",
+  "media": "60|0",
+  "larga": "100|+3",
+  "maxima": "240|0",
+  "dano": "14",
+  "rafaga": "1",
+  "idMunicion": "10",
+  "nombre_municion": "AP+DA",
+  "propiedades": "2|26",
+  "lista_propiedades": "Anti-materiel|Impact Template (Circular)",
+  "link": "0"
+}, {
+  "id": "59",
+  "nombre": "Smart Missile Launcher",
+  "nombre_completo": "Smart Missile Launcher# (Guided Mode)",
+  "CC": "0",
+  "EM": "1",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "14",
+  "rafaga": "1",
+  "idMunicion": "10",
+  "nombre_municion": "AP+DA",
+  "propiedades": "2|16|26",
+  "lista_propiedades": "Anti-materiel|Guided|Impact Template (Circular)",
+  "link": "102"
+}, {
+  "id": "121",
+  "nombre": "Smart MULTI Sniper",
+  "nombre_completo": "Smart MULTI Sniper# (Anti-materiel Mode)",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|-3",
+  "media": "40|0",
+  "larga": "120|+3",
+  "maxima": "240|-3",
+  "dano": "15",
+  "rafaga": "2",
+  "idMunicion": "9",
+  "nombre_municion": "DA",
+  "propiedades": "2|20",
+  "lista_propiedades": "Anti-materiel|Medium MULTI",
+  "link": "166"
+}, {
+  "id": "116",
+  "nombre": "Smart MULTI Sniper",
+  "nombre_completo": "Smart MULTI Sniper# (Anti-tank Mode)",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|-3",
+  "media": "40|0",
+  "larga": "120|+3",
+  "maxima": "240|-3",
+  "dano": "15",
+  "rafaga": "2",
+  "idMunicion": "3",
+  "nombre_municion": "AP",
+  "propiedades": "20",
+  "lista_propiedades": "Medium MULTI",
+  "link": "121"
+}, {
+  "id": "37",
+  "nombre": "Smart MULTI Sniper",
+  "nombre_completo": "Smart MULTI Sniper# (Guided Mode)",
+  "CC": "0",
+  "EM": "1",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "13",
+  "rafaga": "1",
+  "idMunicion": "9",
+  "nombre_municion": "DA",
+  "propiedades": "2|16|26",
+  "lista_propiedades": "Anti-materiel|Guided|Impact Template (Circular)",
+  "link": "116"
+}, {
+  "id": "166",
+  "nombre": "Smart MULTI Sniper",
+  "nombre_completo": "Smart MULTI Sniper# (Stun Mode)",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|-3",
+  "media": "40|0",
+  "larga": "120|+3",
+  "maxima": "240|-3",
+  "dano": "15",
+  "rafaga": "1",
+  "idMunicion": "29",
+  "nombre_municion": "Stun",
+  "propiedades": "20|22",
+  "lista_propiedades": "Medium MULTI|Non-lethal",
+  "link": "0"
+}, {
+  "id": "45",
+  "nombre": "Smoke Grenade",
+  "nombre_completo": "Smoke Grenade",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|+3",
+  "media": "40|-3",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "-",
+  "rafaga": "1",
+  "idMunicion": "21",
+  "nombre_municion": "Smoke",
+  "propiedades": "3|6|13|22|26|33",
+  "lista_propiedades": "Throwing Weapon|Speculative Fire|Dodge|Non-lethal|Impact Template (Circular)|Targetless",
+  "link": "0"
+}, {
+  "id": "54",
+  "nombre": "Smoke Light Grenade Launcher",
+  "nombre_completo": "Smoke Light Grenade Launcher",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|0",
+  "media": "40|+3",
+  "larga": "60|-3",
+  "maxima": "120|-6",
+  "dano": "-",
+  "rafaga": "1",
+  "idMunicion": "21",
+  "nombre_municion": "Smoke",
+  "propiedades": "6|13|22|26|33",
+  "lista_propiedades": "Speculative Fire|Dodge|Non-lethal|Impact Template (Circular)|Targetless",
+  "link": "0"
+}, {
+  "id": "101",
+  "nombre": "Sniffer",
+  "nombre_completo": "Sniffer",
+  "CC": "0",
+  "EM": "0",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "-",
+  "rafaga": "-",
+  "idMunicion": 0,
+  "nombre_municion": "",
+  "propiedades": "",
+  "lista_propiedades": "",
+  "link": "0"
+}, {
+  "id": "34",
+  "nombre": "Sniper",
+  "nombre_completo": "Sniper",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|-3",
+  "media": "40|0",
+  "larga": "120|+3",
+  "maxima": "240|-3",
+  "dano": "15",
+  "rafaga": "2",
+  "idMunicion": "8",
+  "nombre_municion": "Shock",
+  "propiedades": "",
+  "lista_propiedades": "",
+  "link": "0"
+}, {
+  "id": "74",
+  "nombre": "Spitfire",
+  "nombre_completo": "Spitfire",
+  "CC": "0",
+  "EM": "1",
+  "corta": "20|0",
+  "media": "60|+3",
+  "larga": "80|-3",
+  "maxima": "120|-6",
+  "dano": "14",
+  "rafaga": "4",
+  "idMunicion": "2",
+  "nombre_municion": "N",
+  "propiedades": "15",
+  "lista_propiedades": "Suppressive Fire",
+  "link": "0"
+}, {
+  "id": "146",
+  "nombre": "Stun Grenade",
+  "nombre_completo": "Stun Grenade",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|+3",
+  "media": "40|-3",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "13",
+  "rafaga": "1",
+  "idMunicion": "29",
+  "nombre_municion": "Stun",
+  "propiedades": "3|6|26|22",
+  "lista_propiedades": "Throwing Weapon|Speculative Fire|Impact Template (Circular)|Non-lethal",
+  "link": "0"
+}, {
+  "id": "167",
+  "nombre": "Stun Light Grenade Launcher",
+  "nombre_completo": "Stun Light Grenade Launcher",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|0",
+  "media": "40|+3",
+  "larga": "60|-3",
+  "maxima": "120|-6",
+  "dano": "15",
+  "rafaga": "1",
+  "idMunicion": "29",
+  "nombre_municion": "Stun",
+  "propiedades": "6|26|22",
+  "lista_propiedades": "Speculative Fire|Impact Template (Circular)|Non-lethal",
+  "link": "0"
+}, {
+  "id": "92",
+  "nombre": "Stun Pistol",
+  "nombre_completo": "Stun Pistol",
+  "CC": "1",
+  "EM": "0",
+  "corta": "20|+3",
+  "media": "40|0",
+  "larga": "60|-6",
+  "maxima": "-",
+  "dano": "11",
+  "rafaga": "2 (1 in CC)",
+  "idMunicion": "29",
+  "nombre_municion": "Stun",
+  "propiedades": "9|22",
+  "lista_propiedades": "CC|Non-lethal",
+  "link": "0"
+}, {
+  "id": "77",
+  "nombre": "Submachine Gun",
+  "nombre_completo": "Submachine Gun# AP Mode",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|+3",
+  "media": "40|0",
+  "larga": "60|-3",
+  "maxima": "80|-6",
+  "dano": "13",
+  "rafaga": "3",
+  "idMunicion": "3",
+  "nombre_municion": "AP",
+  "propiedades": "15",
+  "lista_propiedades": "Suppressive Fire",
+  "link": "160"
+}, {
+  "id": "160",
+  "nombre": "Submachine Gun",
+  "nombre_completo": "Submachine Gun# Shock Mode",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|+3",
+  "media": "40|0",
+  "larga": "60|-3",
+  "maxima": "80|-6",
+  "dano": "13",
+  "rafaga": "3",
+  "idMunicion": "8",
+  "nombre_municion": "Shock",
+  "propiedades": "15",
+  "lista_propiedades": "Suppressive Fire",
+  "link": "0"
+}, {
+  "id": "127",
+  "nombre": "Supp. Fire Mode Weapon",
+  "nombre_completo": "Supp. Fire Mode Weapon",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|0",
+  "media": "40|0",
+  "larga": "60|-3",
+  "maxima": "-",
+  "dano": "-",
+  "rafaga": "3",
+  "idMunicion": 0,
+  "nombre_municion": "",
+  "propiedades": "",
+  "lista_propiedades": "",
+  "link": "0"
+}, {
+  "id": "86",
+  "nombre": "Swarm Grenades",
+  "nombre_completo": "Swarm Grenades",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|+3",
+  "media": "40|-3",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "13",
+  "rafaga": "1",
+  "idMunicion": "28",
+  "nombre_municion": "Swarm",
+  "propiedades": "3|6|26",
+  "lista_propiedades": "Throwing Weapon|Speculative Fire|Impact Template (Circular)",
+  "link": "0"
+}, {
+  "id": "158",
+  "nombre": "SymbioBugs",
+  "nombre_completo": "SymbioBugs",
+  "CC": "0",
+  "EM": "0",
+  "corta": "MOV 15-10",
+  "media": "BLI 0",
+  "larga": "PB 0",
+  "maxima": "H 1",
+  "dano": "13",
+  "rafaga": "1",
+  "idMunicion": "36",
+  "nombre_municion": "Pheromonic",
+  "propiedades": "11|23|28|37",
+  "lista_propiedades": "Disposable (2)|Non-Lootable|Deployable|Perimeter",
+  "link": "0"
+}, {
+  "id": "143",
+  "nombre": "SymbioMate",
+  "nombre_completo": "SymbioMate",
+  "CC": "0",
+  "EM": "0",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "",
+  "rafaga": "",
+  "idMunicion": 0,
+  "nombre_municion": "",
+  "propiedades": "",
+  "lista_propiedades": "",
+  "link": "0"
+}, {
+  "id": "27",
+  "nombre": "T2 Boarding Shotgun",
+  "nombre_completo": "T2 Boarding Shotgun# (Blast Mode)",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|+6",
+  "media": "40|0",
+  "larga": "60|-3",
+  "maxima": "-",
+  "dano": "14",
+  "rafaga": "2",
+  "idMunicion": "2",
+  "nombre_municion": "N",
+  "propiedades": "27",
+  "lista_propiedades": "Impact Template (Small Teardrop)",
+  "link": "118"
+}, {
+  "id": "153",
+  "nombre": "T2 CC Weapon",
+  "nombre_completo": "T2 CC Weapon",
+  "CC": "1",
+  "EM": "0",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "PH",
+  "rafaga": "1",
+  "idMunicion": "18",
+  "nombre_municion": "T2",
+  "propiedades": "9",
+  "lista_propiedades": "CC",
+  "link": "0"
+}, {
+  "id": "42",
+  "nombre": "T2 Rifle",
+  "nombre_completo": "T2 Rifle",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|0",
+  "media": "40|+3",
+  "larga": "80|-3",
+  "maxima": "120|-6",
+  "dano": "13",
+  "rafaga": "3",
+  "idMunicion": "18",
+  "nombre_municion": "T2",
+  "propiedades": "2|15",
+  "lista_propiedades": "Anti-materiel|Suppressive Fire",
+  "link": "0"
+}, {
+  "id": "118",
+  "nombre": "T2 Shotgun",
+  "nombre_completo": "T2 Shotgun# (T2 Mode)",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|+6",
+  "media": "40|0",
+  "larga": "60|-3",
+  "maxima": "-",
+  "dano": "14",
+  "rafaga": "2",
+  "idMunicion": "18",
+  "nombre_municion": "T2",
+  "propiedades": "2",
+  "lista_propiedades": "Anti-materiel",
+  "link": "0"
+}, {
+  "id": "38",
+  "nombre": "T2 Sniper",
+  "nombre_completo": "T2 Sniper",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|-3",
+  "media": "40|0",
+  "larga": "120|+3",
+  "maxima": "240|-3",
+  "dano": "15",
+  "rafaga": "2",
+  "idMunicion": "18",
+  "nombre_municion": "T2",
+  "propiedades": "2",
+  "lista_propiedades": "Anti-materiel",
+  "link": "0"
+}, {
+  "id": "106",
+  "nombre": "Tactical Bow",
+  "nombre_completo": "Tactical Bow",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|+3",
+  "media": "40|0",
+  "larga": "60|-6",
+  "maxima": "-",
+  "dano": "PH",
+  "rafaga": "1",
+  "idMunicion": "9",
+  "nombre_municion": "DA",
+  "propiedades": "2|31",
+  "lista_propiedades": "Anti-materiel|Silent",
+  "link": "0"
+}, {
+  "id": "12",
+  "nombre": "Templar CC Weapon",
+  "nombre_completo": "Templar CC Weapon",
+  "CC": "1",
+  "EM": "0",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "PH",
+  "rafaga": "-",
+  "idMunicion": "10",
+  "nombre_municion": "AP+DA",
+  "propiedades": "",
+  "lista_propiedades": "",
+  "link": "0"
+}, {
+  "id": "94",
+  "nombre": "Templar CCW",
+  "nombre_completo": "Templar CCW",
+  "CC": "1",
+  "EM": "0",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "PH",
+  "rafaga": "-",
+  "idMunicion": "30",
+  "nombre_municion": "AP+Shock",
+  "propiedades": "",
+  "lista_propiedades": "",
+  "link": "0"
+}, {
+  "id": "78",
+  "nombre": "Templar CCW",
+  "nombre_completo": "Templar CCW# Forge 1",
+  "CC": "1",
+  "EM": "0",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "PH",
+  "rafaga": "1",
+  "idMunicion": "30",
+  "nombre_municion": "AP+Shock",
+  "propiedades": "9",
+  "lista_propiedades": "CC",
+  "link": "0"
+}, {
+  "id": "162",
+  "nombre": "Templar CCW",
+  "nombre_completo": "Templar CCW# Forge 2",
+  "CC": "1",
+  "EM": "0",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "PH",
+  "rafaga": "1",
+  "idMunicion": "10",
+  "nombre_municion": "AP+DA",
+  "propiedades": "2|9",
+  "lista_propiedades": "Anti-materiel|CC",
+  "link": "0"
+}, {
+  "id": "97",
+  "nombre": "TinBot A (Deflector L1)",
+  "nombre_completo": "TinBot A (Deflector L1)",
+  "CC": "0",
+  "EM": "0",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "-",
+  "rafaga": "-",
+  "idMunicion": 0,
+  "nombre_municion": "",
+  "propiedades": "",
+  "lista_propiedades": "",
+  "link": "0"
+}, {
+  "id": "104",
+  "nombre": "TinBot B (Deflector L2)",
+  "nombre_completo": "TinBot B (Deflector L2)",
+  "CC": "0",
+  "EM": "0",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "-",
+  "rafaga": "-",
+  "idMunicion": 0,
+  "nombre_municion": "",
+  "propiedades": "",
+  "lista_propiedades": "",
+  "link": "0"
+}, {
+  "id": "75",
+  "nombre": "Uragan MRL",
+  "nombre_completo": "Uragan MRL# (Blast Mode)",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|0",
+  "media": "40|+3",
+  "larga": "100|-3",
+  "maxima": "120|-6",
+  "dano": "14",
+  "rafaga": "3",
+  "idMunicion": "30",
+  "nombre_municion": "AP+Shock",
+  "propiedades": "6|23|26|29",
+  "lista_propiedades": "Speculative Fire|Non-Lootable|Impact Template (Circular)|Burst: Single Target",
+  "link": "125"
+}, {
+  "id": "125",
+  "nombre": "Uragan MRL",
+  "nombre_completo": "Uragan MRL# (Guided Mode)",
+  "CC": "0",
+  "EM": "0",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "14",
+  "rafaga": "1",
+  "idMunicion": "30",
+  "nombre_municion": "AP+Shock",
+  "propiedades": "16|23|26",
+  "lista_propiedades": "Guided|Non-Lootable|Impact Template (Circular)",
+  "link": "126"
+}, {
+  "id": "126",
+  "nombre": "Uragan MRL",
+  "nombre_completo": "Uragan MRL# (Hit Mode)",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|0",
+  "media": "40|+3",
+  "larga": "100|-3",
+  "maxima": "120|-6",
+  "dano": "15",
+  "rafaga": "3",
+  "idMunicion": "30",
+  "nombre_municion": "AP+Shock",
+  "propiedades": "23|29",
+  "lista_propiedades": "Non-Lootable|Burst: Single Target",
+  "link": "0"
+}, {
+  "id": "13",
+  "nombre": "Viral CC Weapon",
+  "nombre_completo": "Viral CC Weapon",
+  "CC": "1",
+  "EM": "0",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "PH",
+  "rafaga": "1",
+  "idMunicion": "11",
+  "nombre_municion": "Viral",
+  "propiedades": "9",
+  "lista_propiedades": "CC",
+  "link": "0"
+}, {
+  "id": "83",
+  "nombre": "Viral Combi Rifle",
+  "nombre_completo": "Viral Combi Rifle",
+  "CC": "0",
+  "EM": "1",
+  "corta": "20|+3",
+  "media": "40|+3",
+  "larga": "80|-3",
+  "maxima": "120|-6",
+  "dano": "13",
+  "rafaga": "3",
+  "idMunicion": "11",
+  "nombre_municion": "Viral",
+  "propiedades": "15",
+  "lista_propiedades": "Suppressive Fire",
+  "link": "0"
+}, {
+  "id": "63",
+  "nombre": "Viral Mines",
+  "nombre_completo": "Viral Mines",
+  "CC": "0",
+  "EM": "1",
+  "corta": "-",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "12",
+  "rafaga": "1",
+  "idMunicion": "11",
+  "nombre_municion": "Viral",
+  "propiedades": "7|8|12|25|28",
+  "lista_propiedades": "Intuitive Attack|Concealed|Disposable (3)|Direct Template (Small Teardrop)|Deployable",
+  "link": "0"
+}, {
+  "id": "156",
+  "nombre": "Viral Pistol",
+  "nombre_completo": "Viral Pistol",
+  "CC": "1",
+  "EM": "0",
+  "corta": "20|+3",
+  "media": "40|0",
+  "larga": "60|-6",
+  "maxima": "-",
+  "dano": "12",
+  "rafaga": "2 (1 in CC)",
+  "idMunicion": "11",
+  "nombre_municion": "Viral",
+  "propiedades": "9",
+  "lista_propiedades": "CC",
+  "link": "0"
+}, {
+  "id": "43",
+  "nombre": "Viral Rifle",
+  "nombre_completo": "Viral Rifle",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|0",
+  "media": "40|+3",
+  "larga": "80|-3",
+  "maxima": "120|-6",
+  "dano": "13",
+  "rafaga": "3",
+  "idMunicion": "11",
+  "nombre_municion": "Viral",
+  "propiedades": "15",
+  "lista_propiedades": "Suppressive Fire",
+  "link": "0"
+}, {
+  "id": "39",
+  "nombre": "Viral Sniper",
+  "nombre_completo": "Viral Sniper",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|-3",
+  "media": "40|0",
+  "larga": "120|+3",
+  "maxima": "240|-3",
+  "dano": "15",
+  "rafaga": "2",
+  "idMunicion": "11",
+  "nombre_municion": "Viral",
+  "propiedades": "",
+  "lista_propiedades": "",
+  "link": "0"
+}, {
+  "id": "149",
+  "nombre": "Vorpal CC Weapon",
+  "nombre_completo": "Vorpal CC Weapon",
+  "CC": "1",
+  "EM": "0",
+  "corta": "20|+3",
+  "media": "-",
+  "larga": "-",
+  "maxima": "-",
+  "dano": "12",
+  "rafaga": "1",
+  "idMunicion": "7",
+  "nombre_municion": "Monofilament",
+  "propiedades": "3|9",
+  "lista_propiedades": "Throwing Weapon|CC",
+  "link": "0"
+}, {
+  "id": "119",
+  "nombre": "Vulkan Shotgun",
+  "nombre_completo": "Vulkan Shotgun# (AP Mode)",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|+6",
+  "media": "40|0",
+  "larga": "60|-3",
+  "maxima": "-",
+  "dano": "14",
+  "rafaga": "2",
+  "idMunicion": "3",
+  "nombre_municion": "AP",
+  "propiedades": "",
+  "lista_propiedades": "",
+  "link": "0"
+}, {
+  "id": "81",
+  "nombre": "Vulkan Shotgun",
+  "nombre_completo": "Vulkan Shotgun# (Blast Mode)",
+  "CC": "0",
+  "EM": "0",
+  "corta": "20|+6",
+  "media": "40|0",
+  "larga": "60|-3",
+  "maxima": "-",
+  "dano": "14",
+  "rafaga": "2",
+  "idMunicion": "24",
+  "nombre_municion": "Fire",
+  "propiedades": "27",
+  "lista_propiedades": "Impact Template (Small Teardrop)",
+  "link": "119"
+}
+]
+';
+JSON_MUNICION = '[ {
+"id": "1",
+"nombre": "Adhesive"
+}, {
+  "id": "2",
+  "nombre": "N"
+}, {
+  "id": "3",
+  "nombre": "AP"
+}, {
+  "id": "4",
+  "nombre": "N\/AP\/Exp"
+}, {
+  "id": "5",
+  "nombre": "N+E\/M"
+}, {
+  "id": "6",
+  "nombre": "Exp"
+}, {
+  "id": "7",
+  "nombre": "Monofilament"
+}, {
+  "id": "8",
+  "nombre": "Shock"
+}, {
+  "id": "9",
+  "nombre": "DA"
+}, {
+  "id": "10",
+  "nombre": "AP+DA"
+}, {
+  "id": "11",
+  "nombre": "Viral"
+}, {
+  "id": "12",
+  "nombre": "E\/M2"
+}, {
+  "id": "13",
+  "nombre": "AP+Exp"
+}, {
+  "id": "14",
+  "nombre": "E\/M"
+}, {
+  "id": "15",
+  "nombre": "N\/AP"
+}, {
+  "id": "16",
+  "nombre": "N\/T2"
+}, {
+  "id": "17",
+  "nombre": "AP\/DA"
+}, {
+  "id": "18",
+  "nombre": "T2"
+}, {
+  "id": "19",
+  "nombre": "N+EM"
+}, {
+  "id": "20",
+  "nombre": "N\/AP\/DA"
+}, {
+  "id": "21",
+  "nombre": "Smoke"
+}, {
+  "id": "22",
+  "nombre": "Eclipse Smoke"
+}, {
+  "id": "23",
+  "nombre": "Flash"
+}, {
+  "id": "24",
+  "nombre": "Fire"
+}, {
+  "id": "25",
+  "nombre": "Dep. Repeater"
+}, {
+  "id": "26",
+  "nombre": "Nanotec"
+}, {
+  "id": "27",
+  "nombre": "AP\/Fire"
+}, {
+  "id": "28",
+  "nombre": "Swarm"
+}, {
+  "id": "29",
+  "nombre": "Stun"
+}, {
+  "id": "30",
+  "nombre": "AP+Shock"
+}, {
+  "id": "31",
+  "nombre": "K1"
+}, {
+  "id": "32",
+  "nombre": "Breaker"
+}, {
+  "id": "33",
+  "nombre": "Nimbus"
+}, {
+  "id": "34",
+  "nombre": "Plasma"
+}, {
+  "id": "35",
+  "nombre": "AP\/Shock"
+}, {
+  "id": "36",
+  "nombre": "Pheromonic"
+}
+]
+';
+JSON_CARACTERISTICAS = '[ {
+"id": "1",
+"nombre": "Cube"
+}, {
+  "id": "2",
+  "nombre": "No Cube"
+}, {
+  "id": "3",
+  "nombre": "Regular"
+}, {
+  "id": "4",
+  "nombre": "Irregular"
+}, {
+  "id": "5",
+  "nombre": "Not Impetuous"
+}, {
+  "id": "6",
+  "nombre": "Impetuous"
+}, {
+  "id": "7",
+  "nombre": "Frenzy"
+}, {
+  "id": "8",
+  "nombre": "G: Remote Presence"
+}, {
+  "id": "9",
+  "nombre": "G: Mnemonica"
+}, {
+  "id": "10",
+  "nombre": "G: Jumper L1"
+}, {
+  "id": "11",
+  "nombre": "G: Servant"
+}, {
+  "id": "12",
+  "nombre": "G: Synchronized"
+}, {
+  "id": "13",
+  "nombre": "Antipode"
+}, {
+  "id": "14",
+  "nombre": "Transmutation"
+}, {
+  "id": "15",
+  "nombre": "Mechanical Transmutation"
+}, {
+  "id": "16",
+  "nombre": "Morat"
+}, {
+  "id": "17",
+  "nombre": "Exrah"
+}, {
+  "id": "18",
+  "nombre": "Shasvastii"
+}, {
+  "id": "19",
+  "nombre": "G: Autotool"
+}, {
+  "id": "20",
+  "nombre": "Cube 2.0"
+}, {
+  "id": "21",
+  "nombre": "Hackable"
+}, {
+  "id": "22",
+  "nombre": "Manned"
+}, {
+  "id": "23",
+  "nombre": "Extreme Impetuous"
+}, {
+  "id": "24",
+  "nombre": "Non Hackable"
+}
+]
+';
+JSON_SECTORIAL_NOMBRE = '{
+"nombresSectorial": '+
+'{
+"idSectorial_1": "MERCS", '+
+'"idSectorial_101": "PanOceania",' +
+'"idSectorial_102": "Shock Army of Acontecimento",' +
+'"idSectorial_103": "Military Orders",' +
+'"idSectorial_104": "Neoterran Capitaline Army",' +
+'"idSectorial_201": "Yu Jing",' +
+'"idSectorial_202": "Imperial Service",' +
+'"idSectorial_203": "Japanese Sectorial Army",' +
+'"idSectorial_301": "Ariadna",' +
+'"idSectorial_302": "Caledonian Highlander Army",' +
+'"idSectorial_303": "Force de Réponse Rapide Merovingienne",' +
+'"idSectorial_304": "USAriadna Ranger Force",' +
+'"idSectorial_401": "Haqqislam",' +
+'"idSectorial_402": "Hassassin Bahram",' +
+'"idSectorial_403": "Qapu Khalqi",' +
+'"idSectorial_501": "Nomads",' +
+'"idSectorial_502": "Jurisdictional Command of Corregidor",' +
+'"idSectorial_503": "Jurisdictional Command of Bakunin",' +
+'"idSectorial_601": "Combined Army",' +
+'"idSectorial_602": "Morat Aggression Force",' +
+'"idSectorial_603": "Shasvastii Expeditionary Force",' +
+'"idSectorial_604": "Onyx Contact Force",' +
+'"idSectorial_701": "ALEPH",' +
+'"idSectorial_702": "Steel Phalanx",' +
+'"idSectorial_801": "Tohaa",' +
+'"idSectorial_901": "O-12"' +
+'
+}
+}
+';
+JSON_MAIN = '{
+"rotulos": '+
+'{
+"rot_0": "Loading...", '+
+'"rot_1": "Main Menu",' +
+'"rot_2": "Saving..."' +
+'
+}, '+
+'"iconos": ' +
+'{
+"icon_main": "Main Menu", '+
+'"codigoArmy": "Import Army Code",' +
+'"cargarLista": "Load list",' +
+'"listaArmas": "Weapons Chart",' +
+'"listaHackeo": "Programs Chart",' +
+'"icon_its": "I.T.S. login",' +
+'"icon_its_logout": "I.T.S. logout",' +
+'"reset_filtros": "Reset Filters",' +
+'"panel_CD": "Click on \'BS Weapons\' to open Weapons chart",' +
+'"panel_CC": "Click on \'CC Weapons\' to open Weapons chart",' +
+'"icon_X": "X"' +
+'
+}, '+
+'"filtros": ' +
+'{
+"tipo": "Type", '+
+'"categoria": "Classification",' +
+'"caracteristica": "Characteristics",' +
+'"habilidad": "Skills & Equipment",' +
+'"armas": "Weapons",' +
+'"municion": "Ammo",' +
+'"atributo": "Attribute",' +
+'"CAP": "SWC",' +
+'"puntos": "Points",' +
+'"varios": "Multi-selection",' +
+'"todos": "All",' +
+'"icon_X": "X"' +
+'
+}, '+
+'"SYS": ' +
+'{
+"si": "Yes", '+
+'"no": "No",' +
+'"continuar": "Continue",' +
+'"menu_volver_inicio": "Go to main menu",' +
+'"cambios_guardados": "All unsaved changes will be lost. Do you wish to continue?",' +
+'"saberMas": "Do you want to know more?",' +
+'"loginITS": "I.T.S. Login",' +
+'"login": "Login",' +
+'"logout": "Do you wish to logout from I.T.S.?",' +
+'"cancelar": "Cancel",' +
+'"salir": "Exit",' +
+'"cerrar_app": "Application will close completely.",' +
+'"anuncio": "Information of interest to you",' +
+'"loginITS_EXITO": "Login success",' +
+'"loginITS_ERROR_401": "User is not validated.",' +
+'"loginITS_ERROR_403": "Disabled user.",' +
+'"loginITS_ERROR_412": "You need to start reset process for your password. Click <a href=https://profile.corvusbelli.com/forget target=_blank>HERE</a>",' +
+'"loginITS_ERROR_500": "Invalid username or signature.",' +
+'"bienvenido": "Welcome",' +
+'"reset_lista_titulo": "Reset list",' +
+'"reset_lista_txt": "Delete current list? All changes will be lost.",' +
+'"lista_chequeada": "Checked List",' +
+'"lista_ok": "<p>List is correct to be used in a <b>I.T.S. Season 8</b> tournament.</p>",' +
+'"lista_chk_error_1": "You spent more points than selected (<b>$</b>).",' +
+'"lista_chk_error_2": "The <b>SWC</b> exceeds the permitted limit (#) for <b>$ Points</b>.",' +
+'"lista_chk_error_3": "There is no <b>Lieutenant</b>.",' +
+'"lista_chk_error_4": "You can only add one <b>Lieutenant</b> troop.",' +
+'"lista_chk_error_5": "The <b>Group $</b> exceeds the 10 troops per group limit.",' +
+'"lista_chk_error_6": "The troop <b>$</b> exceeds its <b>Availability</b>.",' +
+'"lista_chk_error_7": "You cannot enlist <b>Remotes</b> troops without the presence of a <b>Hacker</b> or a <b>TAG</b>.",' +
+'"lista_chk_error_8": "Remotes with <b>G: Servant</b> must be in a <b>group</b> with at least an <b>Engineer</b> or a <b>Doctor</b>.",' +
+'"lista_chk_error_9": "You cannot add <b>$</b> twice in the list.",' +
+'"lista_chk_error_10": "You cannot include more than <b>2 Confrère Knights</b>.",' +
+'"lista_chk_error_11": "Both the <b>Kuang Shi</b> and the <b>Kuang Shi Control Device</b> must be included in the same Combat Group (either that or there has to be one in each Combat Group including <b>Kuang Shi</b>).",' +
+'"lista_chk_error_12": "You cannot include <b>Kuang Shi</b> without adding a <b>Kuang Shi Control Device</b>.",' +
+'"lista_chk_error_13": "The shared availability of <b>Dog-Warriors</b> and <b>Cameronians</b> is 2.",' +
+'"lista_chk_error_14": "You cannot include a <b>Traktor Mul</b> without adding a <b>Traktor Mul Control Device</b>.",' +
+'"lista_chk_error_15": "Both the <b>Traktor Mul</b> and the <b>Traktor Mul Control Device</b> must be included in the same <b>Combat Group</b>.",' +
+'"lista_chk_error_16": "Only one <b>Fireteam Haris</b> is allowed.",' +
+'"lista_chk_error_17": "Troops with <b>G: Autotool</b> need either a <b>Hacker</b>, a <b>TAG</b> or a <b>G: Mnemonica</b> in order to be deployed.",' +
+'"lista_chk_error_18": "At least 2 <b>Posthumans</b> must be deployed. Maximum 3 of them.",' +
+'"lista_chk_error_19": "All <b>Posthumans</b> must be deployed in the same Combat Group.",' +
+'"lista_chk_error_20": "<b>Civvies</b> are not eligible for I.T.S.",' +
+'"lista_chk_error_21": "A <b>Spec-Ops</b> profile cannot have more than one of <b>Mimetism</b>, <b>Holoprojector L1</b>, or <b>Holoprojector L2</b>.",' +
+'"lista_chk_error_22": "Both the <b>Hungries</b> and the <b>Hungries Control Device</b> must be included in the same Combat Group (either that or there has to be one in each Combat Group including <b>Hungries</b>).",' +
+'"lista_chk_error_23": "You cannot include <b>Hungries</b> without adding a <b>Hungries Control Device</b>.",' +
+'"lista_chk_error_24": "You cannot enlist <b>Mercenary Troops</b> who are not eligible for I.T.S.",' +
+'"lista_chk_error_25": "An Ashcroft Hunting Party is composed by <b>one Miranda Ashcroft</b> and <b>one</b> regular <b>Autorized Bounty Hunter</b>.",' +
+'"codigoArmy": "Army Code",' +
+'"codigoArmy_show": "You can use this Army Code to reproduce your list any time in future:",' +
+'"codigoArmy_ERR1": "As you are not logged in I.T.S. I am not authorized to save your list at system. However, you can use this Army Code to reproduce it any time in future:",' +
+'"codigoArmy_entra": "Import Army Code",' +
+'"codigoArmy_entra_text": "Insert your Army code and click on button to load your list.",' +
+'"cargar": "Load",' +
+'"codigoArmy_entra_ERR1": "Please, type or paste a code.",' +
+'"codigoArmy_entra_ERR2": "Army code is wrong.",' +
+'"codigoArmy_entra_cambio": "Loading new list will cause all changes not saved will be lost. Do you wish to continue?",' +
+'"guardarLista": "Save List",' +
+'"lista_guardada": "List was successfully saved in our system.",' +
+'"lista_guardada_error": "There was an error saving your list in our system. Try again later, please.",' +
+'"lista_carga_ITS": "There was an error retrieving your lists from I.T.S. Try again later, please.",' +
+'"guardarLista_ADV1": "Select a slot which to save your list in. If slot is not empty you will have the option to overwrite.",' +
+'"guardarLista_ADV2": "Do you want to overwrite the selected slot?",' +
+'"guardarLista_Vacio": "Empty slot",' +
+'"cargarLista": "Load list",' +
+'"cargarLista_Nada": "No list was found in this web browser.",' +
+'"cargarLista_Nada_ITS": "No list was found in I.T.S.",' +
+'"local": "Local",' +
+'"borrarLista": "Remove List",' +
+'"borrarLista_Slot": "Do you want to remove the list?",' +
+'"listaBorrada_Slot": "List was successfully removed.",' +
+'"borrarLista_ITS": "Do you want to remove the list $ from I.T.S.?",' +
+'"listaBorrada_ITS": "List was successfully removed from I.T.S.",' +
+'"listaBorrada_ITS_error": "The lista could not be removed from I.T.S. Try again later, please.",' +
+'"exportarLista_text": "Copy the code below and paste it into your post at our forums so it is displayed formatted.",' +
+'"exportarLista_plano": "Plain text list.",' +
+'"abrirArmy": "Open in Infinity Army",' +
+'"holos": "Holoprojectors Deploy",' +
+'"holos_ninguno": "Do not use holoecho",' +
+'"holoeco": "Holoecho",' +
+'"holos_texto": "I am noticing you are using Holoprojector in your list. Below you can state a substitute for each case:"' +
+'
+}, '+
+'"perfil": ' +
+'{
+"nombre": "Name", '+
+'"armasCD": "BS Weapons",' +
+'"armasCC": "CC Weapons",' +
+'"CAP": "SWC",' +
+'"puntos": "C"' +
+'
+}, '+
+'"QSM": ' +
+'{
+"armasCD": "Ballistic Skills Weapons", '+
+'"armasCC": "Close Combat Weapons",' +
+'"CAP": "Support Weapons Cost",' +
+'"puntos": "Points Cost"' +
+'
+}, '+        
+'"armas": ' +
+'{
+"nombre": "Name", '+
+'"distancia": "Range",' +
+'"dano": "Dam.",' +
+'"rafaga": "B",' +
+'"municion": "Ammo",' +
+'"propiedades": "Traits",' +
+'"muestra1": "Army",' +
+'"muestra2": "Unit",' +
+'"muestra3": "List",' +
+'"faccion": "Faction",' +
+'"unidad": "Unit",' +
+'"lista": "List"' +
+'
+}, '+
+'"lista": ' +
+'{
+"nombreLista": "List name", '+
+'"grupo": "GROUP",' +
+'"maxpuntos": "Max. Points:",' +
+'"nuevogrupo": "New group",' +
+'"resetealista": "Delete list",' +
+'"chequealista": "I.T.S. Check report",' +
+'"codigolista": "Generate Army code",' +
+'"codigolista_entra": "Import Army code",' +
+'"exportalista": "Export list to forums",' +
+'"texto_plano": "Plain text",' +
+'"guardalista": "Save list",' +
+'"imprimirlista": "Print list",' +
+'"lista_cortesia": "Courtesy list",' +
+'"tabla_armamento": "Weapons Chart",' +
+'"tabla_metaquimica": "MetaChemistry L$ Chart",' +
+'"tabla_botin": "Booty L$ Chart",' +
+'"tirada": "Roll",' +
+'"resultado": "Result",' +
+'"tabla_hackeo": "Hacking Programs",' +
+'"tipo_programa": "Program Type",' +
+'"dispositivo": "Device",' +
+'"nombre": "Name",' +
+'"mod_ataque": "Attack MOD",' +
+'"mod_adversario": "Opponent MOD",' +
+'"dano": "Damage",' +
+'"R": "B",' +
+'"objetivo": "Target",' +
+'"tipo_habilidad": "Skill Type",' +
+'"especial": "Special",' +
+'"HD": "HD",' +
+'"HDP": "HD+",' +
+'"AHD": "AHD",' +
+'"KHD": "KHD",' +
+'"EIKHD": "EIKHD",' +
+'"DHD": "DHD",' +
+'"EIHD": "EIHD",' +
+'"EIAHD": "EIAHD",' +
+'"WHD": "WHD",' +
+'"EVO": "EVO",' +
+'"sustituir_opcion": "Replace option",' +
+'"no_opcion": "There are no more options."' +
+'
+}, '+
+'"SpecOps": ' +
+'{
+"perfilBase": "Base Profile", '+
+'"Equipo": "Equipment",' +
+'"Armas": "Weapons",' +
+'"Habilidades": "Skills",' +
+'"selEquipo": "Select Equipment",' +
+'"selHabilidad": "Select Skill",' +
+'"selArma": "Select Weapon",' +
+'"anadirSO": "Add to list",' +
+'"editarSO": "Edit Spec-Ops"' +
+'
+}, '+
+'"impresion": ' +
+'{' +
+'"metaquimica1": [' +
+'{
+"d": "1-3",
+"rot": "Natural Armor (+1 ARM)"
+}, '+
+'{
+"d": "4-5",
+"rot": "V:Dogged"
+}, '+
+'{
+"d": "6",
+"rot": "Bioinmunity"
+}, '+
+'{
+"d": "7-8",
+"rot": "Enhanced Mobility (MOV 8-4)"
+}, '+
+'{
+"d": "9",
+"rot": "Reinforced Biotech (+6 BTS)"
+}, '+
+'{
+"d": "10-11",
+"rot": "Enhanced Physique (+3 PH)"
+}, '+
+'{
+"d": "12-13",
+"rot": "V: No Wound Incapacitation"
+}, '+
+'{
+"d": "14",
+"rot": "Sixth Sense L2"
+}, '+
+'{
+"d": "15-16",
+"rot": "Regeneration"
+}, '+
+'{
+"d": "17-18",
+"rot": "Super-Jump"
+}, '+
+'{
+"d": "19",
+"rot": "Climbing Plus"
+}, '+
+'{
+"d": "20",
+"rot": "Inmunity: Total"
+}
+'+
+'
+], '+
+'"metaquimica2": [' +
+'{
+"d": "1-4",
+"rot": "Natural Armor (+1 to ARM) + Bioinmunity"
+}, '+
+'{
+"d": "5-8",
+"rot": "V:Dogged + Inmunity: Total"
+}, '+
+'{
+"d": "9-12",
+"rot": "Superior Mobility (MOV 6-4) + Super-Jump"
+}, '+
+'{
+"d": "13-16",
+"rot": "Superior Mobility (MOV 6-4) + Climbing Plus"
+}, '+
+'{
+"d": "17-20",
+"rot": "Super-Physique (+3 PH) + Regeneration"
+}
+'+
+'
+], '+
+'"botin1": [' +
+'{
+"d": "1-3",
+"rot": "+1 ARM"
+}, '+
+'{
+"d": "4",
+"rot": "EXP CC Weapon"
+}, '+
+'{
+"d": "5",
+"rot": "Light Shotgun"
+}, '+
+'{
+"d": "6",
+"rot": "+4 ARM"
+}, '+
+'{
+"d": "7",
+"rot": "Grenades"
+}, '+
+'{
+"d": "8",
+"rot": "Adhesive Launcher"
+}, '+
+'{
+"d": "9",
+"rot": "Light GL"
+}, '+
+'{
+"d": "10",
+"rot": "Light Flamethrower"
+}, '+
+'{
+"d": "11",
+"rot": "Panzerfaust"
+}, '+
+'{
+"d": "12",
+"rot": "E/M Grenades"
+}, '+
+'{
+"d": "13",
+"rot": "E/M CC Weapon"
+}, '+
+'{
+"d": "14-15",
+"rot": "+2 ARM"
+}, '+
+'{
+"d": "16",
+"rot": "X Visor"
+}, '+
+'{
+"d": "17",
+"rot": "Monofilament CC Weapon"
+}, '+
+'{
+"d": "18",
+"rot": "Combi Rifle"
+}, '+
+'{
+"d": "19",
+"rot": "AP Rifle"
+}, '+
+'{
+"d": "20",
+"rot": "AutoMedikit"
+}
+'+
+'
+], '+
+'"botin2": [' +
+'{
+"d": "1-2",
+"rot": "+1 ARM"
+}, '+
+'{
+"d": "3",
+"rot": "Chain Rifle"
+}, '+
+'{
+"d": "4",
+"rot": "AutoMedikit"
+}, '+
+'{
+"d": "5",
+"rot": "Nanopulser"
+}, '+
+'{
+"d": "6",
+"rot": "Panzerfaust"
+}, '+
+'{
+"d": "7",
+"rot": "MULTI Sniper Rifle"
+}, '+
+'{
+"d": "8",
+"rot": "Smoke Grenades"
+}, '+
+'{
+"d": "9",
+"rot": "CH: Mimetism"
+}, '+
+'{
+"d": "10",
+"rot": "+2 ARM"
+}, '+
+'{
+"d": "11",
+"rot": "MULTI Rifle"
+}, '+
+'{
+"d": "12",
+"rot": "Multispectral Visor L1"
+}, '+
+'{
+"d": "13",
+"rot": "Breaker Rifle"
+}, '+
+'{
+"d": "14-15",
+"rot": "Adhesive Launcher"
+}, '+
+'{
+"d": "16",
+"rot": "+3 ARM"
+}, '+
+'{
+"d": "17",
+"rot": "Flash Pulse"
+}, '+
+'{
+"d": "18",
+"rot": "Motorcycle (MOV 8-6"
+}, '+
+'{
+"d": "19",
+"rot": "ODD: Optical Disruption Device"
+}, '+
+'{
+"d": "20",
+"rot": "HMG"
+}
+'+
+'
+], '+
+'"CLAW-1": [' +
+'{
+"nombre": "Blackout",
+"ataque": "0",
+"adversario": "0",
+"dano": "15",
+"R": "1",
+"objetivo": "Comms Equipment",
+"habilidad": "Short Skill/ARO",
+"especial": "Hacking Area. State: Disabled."
+}, '+
+'{
+"nombre": "Gotcha!",
+"ataque": "0",
+"adversario": "0",
+"dano": "13",
+"R": "2",
+"objetivo": "TAG, HI, REM, Hacker",
+"habilidad": "Short Skill/ARO",
+"especial": "2 Turns. Hacking Area. State: IMM-1."
+}, '+
+'{
+"nombre": "Overlord",
+"ataque": "0",
+"adversario": "0",
+"dano": "14",
+"R": "1",
+"objetivo": "TAG",
+"habilidad": "Short Skill/ARO",
+"especial": "Hacking Area. Breaker Spec. Ammo. State: POS."
+}, '+
+'{
+"nombre": "Spotlight",
+"ataque": "-3",
+"adversario": "0",
+"dano": "-",
+"R": "1",
+"objetivo": "-",
+"habilidad": "Short Skill",
+"especial": "Turn. Hacking Area. State: Targeted."
+}
+'+
+'
+], '+
+'"CLAW-2": [' +
+'{
+"nombre": "Expel",
+"ataque": "0",
+"adversario": "0",
+"dano": "13",
+"R": "1",
+"objetivo": "Manned TAG",
+"habilidad": "Short Skill/ARO",
+"especial": "Hacking Area. The TAG expels its Pilot."
+}, '+
+'{
+"nombre": "Oblivion",
+"ataque": "0",
+"adversario": "0",
+"dano": "16",
+"R": "1",
+"objetivo": "TAG, HI, REM, Hacker",
+"habilidad": "Short Skill/ARO",
+"especial": "Hacking Area. State: Isolated"
+}
+'+
+'
+], '+
+'"CLAW-3": [' +
+'{
+"nombre": "Basilisk",
+"ataque": "0",
+"adversario": "0",
+"dano": "13",
+"R": "3",
+"objetivo": "TAG, HI, REM, Hacker",
+"habilidad": "Short Skill/ARO",
+"especial": "2 Turns. Hacking Area. State: IMM-1."
+}, '+
+'{
+"nombre": "Carbonite",
+"ataque": "+3",
+"adversario": "0",
+"dano": "13",
+"R": "2",
+"objetivo": "TAG, HI, REM, Hacker",
+"habilidad": "Short Skill/ARO",
+"especial": "Hacking Area. DT Spec. Ammo. State: IMM-1."
+}, '+
+'{
+"nombre": "Total Control",
+"ataque": "0",
+"adversario": "0",
+"dano": "16",
+"R": "1",
+"objetivo": "TAG",
+"habilidad": "Short Skill/ARO",
+"especial": "Hacking Area. DT Spec. Ammo. State: POS"
+}
+'+
+'
+], '+
+'"SWORD-1": [' +
+'{
+"nombre": "Brain Blast",
+"ataque": "0",
+"adversario": "0",
+"dano": "14",
+"R": "2",
+"objetivo": "Hacker",
+"habilidad": "Short Skill/ARO",
+"especial": "Hacking Area. Loss of 1 Wounds/STR."
+}
+'+
+'
+], '+
+'"SWORD-2": [' +
+'{
+"nombre": "Redrum",
+"ataque": "0",
+"adversario": "-3",
+"dano": "16",
+"R": "2",
+"objetivo": "Hacker",
+"habilidad": "Short Skill/ ARO",
+"especial": "Hacking Area. DT Special Ammo. Loss of 1 point of Wounds/STR."
+}, '+
+'{
+"nombre": "Skullbuster",
+"ataque": "+3",
+"adversario": "0",
+"dano": "16",
+"R": "2",
+"objetivo": "Hacker",
+"habilidad": "Short Skill/ ARO",
+"especial": "Hacking Area. Breaker Special Ammo. Loss of 1 point of Wounds/STR."
+}, '+
+'{
+"nombre": "Trinity",
+"ataque": "0",
+"adversario": "0",
+"dano": "16",
+"R": "3",
+"objetivo": "Hacker",
+"habilidad": "Short Skill/ ARO",
+"especial": "Hacking Area. Shock Special Ammo. Loss of 1 point of Wounds/STR."
+}
+'+
+'
+], '+
+'"SHIELD-1": [' +
+'{
+"nombre": "Exorcism",
+"ataque": "0",
+"adversario": "-3",
+"dano": "18",
+"R": "2",
+"objetivo": "Possessed TAG",
+"habilidad": "Short Skill",
+"especial": "Cancels Possession. DT Spec. Ammo."
+}, '+
+'{
+"nombre": "Hack Transport Aircraft",
+"ataque": "-6",
+"adversario": "-",
+"dano": "-",
+"R": "1",
+"objetivo": "-",
+"habilidad": "ARO",
+"especial": "Face to Face Roll vs PH of the user of Combat Jump. Apply Dispersion rules."
+}, '+
+'{
+"nombre": "U-Turn",
+"ataque": "-",
+"adversario": "-3",
+"dano": "-",
+"R": "1",
+"objetivo": "Guided Spec. Ammo",
+"habilidad": "ARO",
+"especial": "Cumulative MOD to Attacks with Guided Spec. Ammo."
+}
+'+
+'
+], '+
+'"SHIELD-2": [' +
+'{
+"nombre": "Breakwater",
+"ataque": "0",
+"adversario": "-6",
+"dano": "-",
+"R": "1",
+"objetivo": "Hacker",
+"habilidad": "Short Skill/ARO",
+"especial": "Nullifies Hacking Attack."
+}
+'+
+'
+], '+
+'"SHIELD-3": [' +
+'{
+"nombre": "Counterstrike",
+"ataque": "-3",
+"adversario": "-3",
+"dano": "-",
+"R": "1",
+"objetivo": "Hacker",
+"habilidad": "Short Skill/ARO",
+"especial": "Reflects Hacking Attack back to attacker."
+}, '+
+'{
+"nombre": "Zero Pain",
+"ataque": "0",
+"adversario": "0",
+"dano": "-",
+"R": "2*",
+"objetivo": "Hacker",
+"habilidad": "Short Skill/ARO",
+"especial": "Nullifies Hacking Attack. B2 in ARO."
+}
+'+
+'
+], '+
+'"GADGET-1": [' +
+'{
+"nombre": "Fairy Dust",
+"ataque": "-",
+"adversario": "-",
+"dano": "-",
+"R": "1",
+"objetivo": "HI",
+"habilidad": "Entire Order",
+"especial": "Entire Order 2 Turns. All HIs gain Firewall MODs."
+}, '+
+'{
+"nombre": "Lockpicker",
+"ataque": "0",
+"adversario": "0",
+"dano": "-",
+"R": "1",
+"objetivo": "-",
+"habilidad": "Short Skill",
+"especial": "Base to base contact. Can open/activate Security terrain."
+}, '+
+'{
+"nombre": "Controlled Jump",
+"ataque": "-",
+"adversario": "-",
+"dano": "-",
+"R": "1",
+"objetivo": "",
+"habilidad": "Entire Order",
+"especial": "Turn. +3 PH MOD to all Combat Jumps."
+}
+'+
+'
+], '+
+'"GADGET-2": [' +
+'{
+"nombre": "Assisted Fire",
+"ataque": "-",
+"adversario": "-",
+"dano": "-",
+"R": "1",
+"objetivo": "REM",
+"habilidad": "Entire Order",
+"especial": "2 Turns. Target gains Marksmanship L2."
+}, '+
+'{
+"nombre": "Enhanced Reaction",
+"ataque": "-",
+"adversario": "-",
+"dano": "-",
+"R": "1",
+"objetivo": "REM",
+"habilidad": "Entire Order",
+"especial": "2 Turns. Target gains B2 in ARO."
+}
+'+
+'
+], '+
+'"GADGET-EVO": [' +
+'{
+"nombre": "Kaleidoscope",
+"ataque": "-",
+"adversario": "-",
+"dano": "-",
+"R": "1",
+"objetivo": "Hacker",
+"habilidad": "Entire Order",
+"especial": "2 Turns. Target imposes a WIP-3 MOD."
+}, '+
+'{
+"nombre": "Overclock",
+"ataque": "-",
+"adversario": "-",
+"dano": "-",
+"R": "1",
+"objetivo": "REM with Repeater",
+"habilidad": "Entire Order",
+"especial": "2 Turns. All targets gain B2 in ARO."
+}, '+
+'{
+"nombre": "Reboot",
+"ataque": "-",
+"adversario": "-",
+"dano": "-",
+"R": "1",
+"objetivo": "TAG, HI, REM, Hacker",
+"habilidad": "Entire Order",
+"especial": "2 Turns. In Face to face Roll targets impose a WIP-3 when declaring Reset."
+}, '+
+'{
+"nombre": "TeamPro",
+"ataque": "-",
+"adversario": "-",
+"dano": "-",
+"R": "1",
+"objetivo": "Fireteam",
+"habilidad": "Entire Order",
+"especial": "2 Turns. Allows naming a new Team Leader and the use of Fireteam Duo in Generic Armies."
+}
+'+
+'
+], '+
+'"UPGRADE": [' +
+'{
+"nombre": "Cybermask",
+"ataque": "0",
+"adversario": "0",
+"dano": "-",
+"R": "1",
+"objetivo": "",
+"habilidad": "Entire Order",
+"especial": "Replace user with Impersonation-2 Marker."
+}, '+
+'{
+"nombre": "White Noise",
+"ataque": "0",
+"adversario": "0",
+"dano": "-",
+"R": "1",
+"objetivo": "",
+"habilidad": "Short Skill/ ARO",
+"especial": "Turn. NFB. Hacking Area. Circular Template "
+}, '+
+'{
+"nombre": "Stop!",
+"ataque": "0",
+"adversario": "0",
+"dano": "16",
+"R": "2",
+"objetivo": "TAG, HI, REM, Hacker",
+"habilidad": "Short Skill/ ARO",
+"especial": "2 Turns. Hacking Area. Breaker Spec. Ammo. State: IMM-1."
+}, '+
+'{
+"nombre": "Sucker Punch",
+"ataque": "0",
+"adversario": "-3",
+"dano": "16",
+"R": "1",
+"objetivo": "Hacker",
+"habilidad": "Short Skill/ ARO",
+"especial": "Hacking Area. DT Spec. Ammo. Loss of 1 Wounds/STR."
+}, '+
+'{
+"nombre": "Exile",
+"ataque": "-",
+"adversario": "-",
+"dano": "16",
+"R": "1",
+"objetivo": "Fireteam member",
+"habilidad": "Short Skill/ ARO",
+"especial": "Hacking Area. State: Isolated. Fireteam cancellation."
+}, '+
+'{
+"nombre": "Goodnight",
+"ataque": "+3",
+"adversario": "-",
+"dano": "16",
+"R": "2",
+"objetivo": "Remote Presence in Unconscious state",
+"habilidad": "Short Skill",
+"especial": "Hacking Area. Breaker Special Ammo. State: Dead."
+}, '+
+'{
+"nombre": "Maestro",
+"ataque": "+3",
+"adversario": "-3",
+"dano": "14",
+"R": "2",
+"objetivo": "Hacker",
+"habilidad": "Short Skill/ ARO",
+"especial": "Hacking Area. Breaker Special Ammo. State: Unconscious."
+}, '+
+'{
+"nombre": "Lightning",
+"ataque": "0",
+"adversario": "-6",
+"dano": "15",
+"R": "2",
+"objetivo": "Hacker",
+"habilidad": "Short Skill/ ARO",
+"especial": "Hacking Area. Breaker Special Ammo. Loss of 1 Wounds/STR."
+}, '+
+'{
+"nombre": "Icebreaker",
+"ataque": "0",
+"adversario": "0",
+"dano": "12",
+"R": "2",
+"objetivo": "TAG, HI, REM, Hacker",
+"habilidad": "Short Skill/ ARO",
+"especial": "Hacking Area. Reduces BTS value to 0. State: IMM-1."
+}
+'+
+'
+]
+'+
+'
+}
+'+
+'
+}
+';
+JSON_OPCIONES = '{
+"rotulos": '+
+'{
+"rot_0": "OPTIONS", '+
+'"rot_1": "Language",' +
+'"rot_2": "Units Menu",' +
+'"rot_3": "Horizontal",' +
+'"rot_4": "Vertical",' +
+'"rot_5": "Units Sorting",' +
+'"rot_6": "Publishing order",' +
+'"rot_7": "ISC",' +
+'"rot_8": "Unit name",' +
+'"rot_9": "Type",' +
+'"rot_10": "Classification",' +
+'"rot_11": "DES",' +
+'"rot_12": "ASC",' +
+'"rot_13": "Show tooltips",' +
+'"rot_14": "Ranges",' +
+'"rot_15": "Centimeters",' +
+'"rot_16": "Inches",' +
+'"rot_17": "Drag elements of this list to setup your order priority and click to change between ASCending and DEScending order",' +
+'"rot_18": "Printing",' +
+'"rot_19": "N3 Colored Ranges",' +
+'"rot_20": "N3 B/W Ranges",' +
+'"rot_21": "N2 style Ranges",' +
+'"rot_22": "Weapons Chart",' +
+'"rot_23": "MetaChemistry Chart",' +
+'"rot_24": "Booty Chart",' +
+'"rot_25": "Charts on new page",' +
+'"rot_26": "Hacking Programs",' +
+'"rot_27": "Display one profile at a time",' +
+'"rot_28": "Show Type (Horizontal Menu)",' +
+'"rot_29": "Frame units with same Type",' +
+'"rot_30": "Only when units are sorted by Type:",' +
+'"rot_31": "Download Army",' +
+'"rot_32": "MERCS",' +
+'"rot_33": "Mark options over List CAP/Points Limit."' +
+'
+}
+}
+'; 
+
+JSON_MARCADORES = '{
+"rotulos": '+
+'{
+"mando": "Command Tokens", '+
+'"teniente": "Lieutenant Order",' +
+'"perdida": "Loss of Lieutenant",' +
+'"ppretirada": "Points to Retreat:",' +
+'"retirada": "Retreat!!",' +
+'"turnoDES": "Deployment",' +
+'"turnoAC": "Active Turn",' +
+'"turnoRE": "Reactive Turn",' +
+'"rotulo": "Retreat control",' +
+'"iniciativa": "Initiative Order"' +
+'
+}
+}
+';        
+
+JSON_WIKI_URLS = '{' +
+  '"atributo": "Attributes",' +
+  '"tipo_unidad": "Troop_Types",' +
+  '"petaca": "Back-up",' +
+  '"instruccion": "Training",' +
+  '"furia": "Fury",' +
+  '"hackeable": "Hackable",' +
+  '"no-hackeable": "Non_Hackable",' +
+  '"8": "Ghost_(G)#Ghost:_Remote_Presence",' +
+  '"9": "Ghost_(G)#Ghost:_Mnemonica",' +
+  '"10": "Ghost_(G)#Ghost:_Jumper_L1",' +
+  '"11": "Ghost_(G)#Ghost:_Servant",' +
+  '"12": "Ghost_(G)#Ghost:_Synchronized",' +
+  '"13": "Antipode",' +
+  '"14": "Transmutation",' +
+  '"15": "Mechanical_Transmutation",' +
+  '"16": "Morat",' +
+  '"18": "Shasvastii",' +
+  '"19": "Ghost_(G)#Ghost:_Autotool",' +
+  '"22": "Manned",' +
+  '"24": "Non-Hackable",' +
+  '"armasCD": "BS_Attack",' +
+  '"armasCC": "CC_Attack",' +
+  '"CAP": "Attributes#Support_Weapons_Cost_.28SWC.29",' +
+  '"C": "Attributes#Cost_.28C.29"' +
+  '
+}
+';
+
+JSON_HABS_WIKI_URLS = '{' +
+  '"113": "360_Visor",' +
+  '"34": "Airborne_Deployment_(AD)#AIRBORNE_DEPLOYMENT_LEVEL_2._AIRBORNE_INFILTRATION",' +
+  '"35": "Airborne_Deployment_(AD)#AIRBORNE_DEPLOYMENT_LEVEL_4._COMBAT_JUMP",' +
+  '"135": "Airborne_Deployment_(AD)#AIRBORNE_DEPLOYMENT_LEVEL_3._INFERIOR_COMBAT_JUMP",' +
+  '"33": "Airborne_Deployment_(AD)#AIRBORNE_DEPLOYMENT_LEVEL_1._PARACHUTIST",' +
+  '"154": "Airborne_Deployment_(AD)#AIRBORNE_DEPLOYMENT_LEVEL_5._SUPERIOR_COMBAT_JUMP",' +
+  '"36": "Airborne_Deployment_(AD)#AIRBORNE_DEPLOYMENT_LEVEL_X._TACTICAL_JUMP",' +
+  '"147": "Advanced_Command",' +
+  '"142": "ECM",' +
+  '"167": "Aerocam",' +
+  '"92": "AI_Beacon",' +
+  '"157": "Doctor",' +
+  '"95": "Antipode_Control_Device",' +
+  '"77": "Terrain",' +
+  '"140": "Assault",' +
+  '"139": "Hacking:_Equipment#ASSAULT_HACKING_DEVICE",' +
+  '"90": "AutoMediKit",' +
+  '"91": "Baggage",' +
+  '"75": "Impersonation#IMPERSONATION_LEVEL_1._BASIC_IMPERSONATION",' +
+  '"24": "Berserk",' +
+  '"138": "Bioimmunity",' +
+  '"94": "Biolocator",' +
+  '"25": "Booty#Booty_Level_1",' +
+  '"136": "Booty#Booty_Level_2",' +
+  '"103": "Braces",' +
+  '"165": "Grenade_Launcher_(GL)#Light_Smoke_Grenade_Launcher_.28Light_Smoke_GL.29",' +
+  '"148": "Camouflage_and_Hiding_(CH)#CH:_LEVEL_X._AMBUSH_CAMOUFLAGE",' +
+  '"29": "Camouflage_and_Hiding_(CH)#CH:_LEVEL_2._CAMOUFLAGE",' +
+  '"27": "Camouflage_and_Hiding_(CH)#CH:_Limited_Camouflage",' +
+  '"28": "Camouflage_and_Hiding_(CH)#CH:_LEVEL_1._MIMETISM",' +
+  '"30": "Camouflage_and_Hiding_(CH)#CH:_LEVEL_3._TO_CAMOUFLAGE",' +
+  '"26": "Chain_of_Command",' +
+  '"132": "Civvies",' +
+  '"82": "Climbing_Plus",' +
+  '"31": "Coma",' +
+  '"170": "Corahtar_Discipline",' +
+  '"134": "CUBEVAC",' +
+  '"143": "Deactivator",' +
+  '"130": "Hacking:_Equipment#DEFENSIVE_HACKING_DEVICE",' +
+  '"111": "Deployable_Repeater",' +
+  '"81": "Terrain",' +
+  '"53": "Doctor",' +
+  '"155": "Doctor",' +
+  '"32": "Dual_Wield",' +
+  '"102": "ECM",' +
+  '"137": "Evacuation_Device_(ED)",' +
+  '"160": "Hacking:_Equipment#ASSAULT_HACKING_DEVICE",' +
+  '"159": "Hacking:_Equipment#HACKING_DEVICE",' +
+  '"112": "Ejection_System",' +
+  '"49": "Engineer",' +
+  '"110": "EVO_Repeater",' +
+  '"146": "Executive_Order",' +
+  '"38": "Explode",' +
+  '"163": "Explode",' +
+  '"125": "Fireteam:_Enomotarchos",' +
+  '"121": "Fireteam:_Haris",' +
+  '"129": "Fireteam:_Tohaa",' +
+  '"161": "Forward_Deployment",' +
+  '"59": "Forward_Observer",' +
+  '"186": "Free_Agent",' +
+  '"100": "Hacking:_Equipment#HACKING_DEVICE",' +
+  '"101": "Hacking:_Equipment#HACKING_DEVICE_PLUS",' +
+  '"158": "Heavyweight",' +
+  '"104": "Holoprojector#Holoprojector_L1",' +
+  '"105": "Holoprojector#Holoprojector_L2",' +
+  '"124": "Hungries_Control_Device",' +
+  '"40": "Hyper-Dynamics",' +
+  '"41": "Hyper-Dynamics",' +
+  '"42": "Hyper-Dynamics",' +
+  '"43": "I-Khol",' +
+  '"44": "I-Khol",' +
+  '"45": "I-Khol",' +
+  '"162": "Immunity",' +
+  '"76": "Impersonation#IMPERSONATION_LEVEL_2._IMPERSONATION_PLUS",' +
+  '"46": "Infiltrate#INFILTRATE_LEVEL_0._INFERIOR_INFILTRATION",' +
+  '"47": "Infiltrate#INFILTRATE_LEVEL_1._INFILTRATION",' +
+  '"52": "Inspiring_Leadership",' +
+  '"127": "Journalist",' +
+  '"128": "Journalist",' +
+  '"79": "Terrain",' +
+  '"141": "Kinematika",' +
+  '"153": "Kinematika",' +
+  '"96": "Kuang_Shi_Control_Device",' +
+  '"119": "Lieutenant",' +
+  '"166": "Lieutenant",' +
+  '"120": "Infinity_Fireteam",' +
+  '"187": "Manned",' +
+  '"150": "Marksmanship",' +
+  '"156": "Marksmanship",' +
+  '"149": "Marksmanship",' +
+  '"19": "Martial_Arts",' +
+  '"20": "Martial_Arts",' +
+  '"21": "Martial_Arts",' +
+  '"22": "Martial_Arts",' +
+  '"23": "Martial_Arts",' +
+  '"37": "Mechanized_Deployment",' +
+  '"133": "MEDEVAC",' +
+  '"106": "MediKit",' +
+  '"54": "Meta-Agility",' +
+  '"55": "MetaChemistry",' +
+  '"56": "Minelayer",' +
+  '"93": "Minesweeper",' +
+  '"107": "Motorcycle",' +
+  '"78": "Terrain",' +
+  '"114": "Multispectral_Visor",' +
+  '"115": "Multispectral_Visor",' +
+  '"116": "Multispectral_Visor",' +
+  '"58": "Multiterrain",' +
+  '"108": "Nanoscreen",' +
+  '"39": "Natural_Born_Warrior",' +
+  '"109": "Neurocinetics",' +
+  '"122": "Number_2",' +
+  '"98": "ODD:_Optical_Disruption_Device",' +
+  '"64": "Paramedic",' +
+  '"60": "Pilot",' +
+  '"87": "Poison",' +
+  '"62": "Regeneration",' +
+  '"83": "Religious_Troop",' +
+  '"63": "Repeater",' +
+  '"73": "Striga",' +
+  '"72": "Striga",' +
+  '"89": "Sapper",' +
+  '"144": "Sat-Lock",' +
+  '"152": "Scavenger",' +
+  '"66": "Seed-Embryo",' +
+  '"65": "Sensor",' +
+  '"50": "Immunity",' +
+  '"67": "Sixth_Sense#SIXTH_SENSE_LEVEL_1",' +
+  '"68": "Sixth_Sense#SIXTH_SENSE_LEVEL_2",' +
+  '"123": "Specialist_Troop",' +
+  '"126": "Spotter",' +
+  '"164": "Stealth",' +
+  '"69": "Strategos#STRATEGOS_LEVEL_1",' +
+  '"70": "Strategos#STRATEGOS_LEVEL_2",' +
+  '"71": "Strategos#STRATEGOS_LEVEL_3",' +
+  '"74": "Super-Jump",' +
+  '"48": "Infiltrate#INFILTRATE_LEVEL_2._SUPERIOR_INFILTRATION",' +
+  '"57": "Superior Movement",' +
+  '"131": "Symbiont_Armor",' +
+  '"168": "TinBot",' +
+  '"169": "TinBot",' +
+  '"51": "Immunity",' +
+  '"61": "Total_Reaction",' +
+  '"97": "Traktor_Mul_Control_Device",' +
+  '"84": "Valor_(V)#VALOR_LEVEL_1._COURAGE",' +
+  '"85": "Valor_(V)#VALOR_LEVEL_2._DOGGED",' +
+  '"86": "Valor_(V)#VALOR_LEVEL_3._NO_WOUND_INCAPACITATION",' +
+  '"88": "Veteran",' +
+  '"151": "Veteran",' +
+  '"117": "X-Visor",' +
+  '"118": "X-2_Visor",' +
+  '"80": "Terrain",' +
+  '"145": "Hacking:_Equipment#KILLER_HACKING_DEVICE",' +
+  '"171": "MetaChemistry",' +
+  '"172": "Protheion",' +
+  '"173": "Protheion",' +
+  '"174": "Protheion",' +
+  '"175": "Protheion",' +
+  '"176": "Forward_Deployment",' +
+  '"177": "Guard",' +
+  '"178": "Guard",' +
+  '"179": "Guard",' +
+  '"180": "Guard",' +
+  '"181": "Fireteam:_Duo_(Skill)",' +
+  '"182": "Hacking:_Equipment#EVO_HACKING_DEVICE",' +
+  '"183": "Albedo",' +
+  '"184": "Biometric_Visor",' +
+  '"185": "Biometric_Visor",' +
+  '"188": "TinBot",' +
+  '"189": "Specialist_Operative",' +
+  '"190": "Lo-Tech",' +
+  '"191": "Surprise_Attack",' +
+  '"192": "Surprise_Attack",' +
+  '"193": "TinBot",' +
+  '"194": "TinBot",' +
+  '"195": "Holoprojector#Holoprojector_Level_3",' +
+  '"196": "Hacking:_Equipment#WHITE_HACKING_DEVICE",' +
+  '"197": "Remote_Pilot",' +
+  '"198": ""' +
+  
+}
+
+JSON_ARMAS_WIKI_URLS = { 
+  '"1": "Akrylat-Kanone",' +
+  '"2": "Heavy_Machine_Gun_(HMG)",' +
+  '"3": "Heavy_Machine_Gun_(HMG)#AP_HMG",' +
+  '"117": "Heavy_Machine_Gun_(HMG)#MULTI_HMG",' +
+  '"4": "Heavy_Machine_Gun_(HMG)#MULTI_HMG",' +
+  '"106": "Tactical_Bow",' +
+  '"5": "CC_Weapon",' +
+  '"6": "CC_Weapon",' +
+  '"11": "CC_Weapon",' +
+  '"7": "CC_Weapon",' +
+  '"8": "CC_Weapon",' +
+  '"9": "CC_Weapon",' +
+  '"10": "CC_Weapon",' +
+  '"78": "",' +
+  '"13": "CC_Weapon",' +
+  '"127": "Suppressive_Fire_Mode",' +
+  '"79": "Hedgehog_Weapon",' +
+  '"12": "",' +
+  '"94": "",' +
+  '"14": "Blitzen",' +
+  '"128": "Hyper-Rapid_Magnetic_Cannon_(HMC)",' +
+  '"15": "Hyper-Rapid_Magnetic_Cannon_(HMC)",' +
+  '"16": "Portable_Autocannon",' +
+  '"111": "Plasma_Carbine",' +
+  '"129": "Plasma_Carbine",' +
+  '"17": "D-Charges",' +
+  '"18": "Chain_Rifle",' +
+  '"80": "Chain-Colt",' +
+  '"19": "Contender",' +
+  '"20": "CrazyKoala",' +
+  '"21": "Knife",' +
+  '"22": "D.E.P.",' +
+  '"130": "Deactivator",' +
+  '"131": "Discover",' +
+  '"96": "Drop_Bears",' +
+  '"132": "Drop_Bears",' +
+  '"23": "E/Marat",' +
+  '"24": "E/Mauler",' +
+  '"25": "E/Mitter",' +
+  '"27": "Shotgun#T2_Boarding_Shotgun",' +
+  '"118": "Shotgun#T2_Boarding_Shotgun",' +
+  '"26": "Shotgun#Boarding_Shotgun",' +
+  '"133": "Shotgun#Boarding_Shotgun",' +
+  '"28": "Shotgun#Light_Shotgun",' +
+  '"29": "Shotgun#Heavy_Shotgun",' +
+  '"134": "Shotgun#Heavy_Shotgun",' +
+  '"81": "Shotgun#Vulkan_Shotgun",' +
+  '"119": "Shotgun#Vulkan_Shotgun",' +
+  '"113": "Sniper_Rifle#Plasma_Sniper_Rifle",' +
+  '"108": "FastPanda",' +
+  '"30": "Feuerbach",' +
+  '"82": "Flammenspeer",' +
+  '"120": "Flammenspeer",' +
+  '"31": "Rifle",' +
+  '"32": "Rifle#AP_Rifle",' +
+  '"109": "Rifle#Breaker_Rifle",' +
+  '"33": "Rifle#Combi_Rifle",' +
+  '"103": "Rifle#Breaker_Combi_Rifle",' +
+  '"95": "Rifle#K1_Combi_Rifle",' +
+  '"112": "Rifle#K1_Combi_Rifle",' +
+  '"83": "Rifle#Viral_Combi_Rifle",' +
+  '"34": "Sniper_Rifle",' +
+  '"35": "Sniper_Rifle#AP_Sniper_Rifle",' +
+  '"135": "Sniper_Rifle#Plasma_Sniper_Rifle",' +
+  '"110": "Sniper_Rifle#K1_Sniper_Rifle",' +
+  '"121": "Sniper_Rifle#Smart_Multi_Sniper_Rifle",' +
+  '"116": "Sniper_Rifle#Smart_Multi_Sniper_Rifle",' +
+  '"37": "Sniper_Rifle#Smart_Multi_Sniper_Rifle",' +
+  '"136": "Sniper_Rifle#MULTI_Sniper_Rifle",' +
+  '"36": "Sniper_Rifle#MULTI_Sniper_Rifle",' +
+  '"38": "Sniper_Rifle#T2_Sniper_Rifle",' +
+  '"39": "Sniper_Rifle#Viral_Sniper_Rifle",' +
+  '"40": "Rifle#Plasma_Rifle",' +
+  '"137": "Rifle#Plasma_Rifle",' +
+  '"84": "Marksman_Rifle",' +
+  '"85": "Marksman_Rifle",' +
+  '"138": "Rifle#MULTI_Rifle",' +
+  '"41": "Rifle#MULTI_Rifle",' +
+  '"42": "Rifle#T2_Rifle",' +
+  '"43": "Rifle#Viral_Rifle",' +
+  '"44": "Grenades",' +
+  '"45": "Grenades#Smoke_Grenades",' +
+  '"46": "Grenades#Zero-V_Smoke_Grenades",' +
+  '"47": "Grenades#E.2FM_Grenades",' +
+  '"48": "Grenades#Flash_Grenades",' +
+  '"86": "Grenades#Swarm_Grenades",' +
+  '"99": "Grenades#Nimbus_Grenades",' +
+  '"139": "Grenades#Nimbus_Plus_Grenades",' +
+  '"87": "Jammer",' +
+  '"49": "Katyusha_MRL",' +
+  '"122": "Katyusha_MRL",' +
+  '"50": "Adhesive_Launcher_(ADHL)",' +
+  '"115": "Rocket_Launcher_(RL)#Smart_Rocket_Launcher_.28Smart_RL.29",' +
+  '"90": "Rocket_Launcher_(RL)#Smart_Rocket_Launcher_.28Smart_RL.29",' +
+  '"88": "Rocket_Launcher_(RL)#Light_Rocket_Launcher_.28Light_RL.29",' +
+  '"123": "Rocket_Launcher_(RL)#Light_Rocket_Launcher_.28Light_RL.29",' +
+  '"89": "Rocket_Launcher_(RL)#Heavy_Rocket_Launcher_.28Heavy_RL.29",' +
+  '"124": "Rocket_Launcher_(RL)#Heavy_Rocket_Launcher_.28Heavy_RL.29",' +
+  '"76": "Grenade_Launcher_(GL)#Zero-V_Smoke_Light_Grenade_Launcher",' +
+  '"54": "Grenade_Launcher_(GL)#Light_Smoke_Grenade_Launcher_.28Light_Smoke_GL.29",' +
+  '"53": "Grenade_Launcher_(GL)#Flash_Light_Grenade_Launcher",' +
+  '"105": "Grenade_Launcher_(GL)#Light_Nimbus_Grenade_Launcher_.28Light_Nimbus_GL.29",' +
+  '"51": "Grenade_Launcher_(GL)#Light_Grenade_Launcher_.28Light_GL.29",' +
+  '"52": "Grenade_Launcher_(GL)#Light_E.2FM_grenade_launcher_.28light_E.2FM_GL.29",' +
+  '"55": "Grenade_Launcher_(GL)#Heavy_Grenade_Launcher_.28Heavy_GL.29",' +
+  '"56": "Flamethrower_(FT)",' +
+  '"57": "Flamethrower_(FT)",' +
+  '"102": "Missile_Launcher_(ML)#Smart_Missile_Launcher_.28smart_ML.29",' +
+  '"59": "Missile_Launcher_(ML)#Smart_Missile_Launcher_.28smart_ML.29",' +
+  '"140": "Missile_Launcher_(ML)#Missile_Launcher_.28ML.29_2",' +
+  '"58": "Missile_Launcher_(ML)#Missile_Launcher_.28ML.29_2",' +
+  '"141": "Bare-Handed",' +
+  '"60": "Marker",' +
+  '"142": "MediKit",' +
+  '"61": "Mines#Anti-Personnel_Mines",' +
+  '"62": "Mines#Monofilament_Mines",' +
+  '"63": "Mines#Viral_Mines",' +
+  '"64": "Mk12",' +
+  '"91": "Molotok",' +
+  '"65": "Nanopulser",' +
+  '"93": "Nullifier",' +
+  '"66": "Forward_Observer",' +
+  '"67": "Ojotnik",' +
+  '"68": "Panzerfaust",' +
+  '"69": "Pistol",' +
+  '"92": "Pistol#Stun_Pistol",' +
+  '"98": "Pistol#Breaker_Pistol",' +
+  '"70": "Pistol#Assault_Pistol",' +
+  '"107": "Pistol#Heavy_Pistol",' +
+  '"100": "Pistol#AP_Heavy_Pistol",' +
+  '"71": "Electric_Pulse",' +
+  '"72": "Flash_Pulse",' +
+  '"73": "Sepsitor",' +
+  '"114": "Sepsitor#Sepsitor_Plus",' +
+  '"144": "SymbioBomb",' +
+  '"101": "Sniffer",' +
+  '"74": "Spitfire",' +
+  '"77": "Subfusil",' +
+  '"143": "SymbioMate",' +
+  '"97": "TinBot",' +
+  '"104": "TinBot",' +
+  '"75": "Urugan_MRL",' +
+  '"125": "Urugan_MRL",' +
+  '"126": "Urugan_MRL",' +
+  '"145": "Pulzar",' +
+  '"146": "Grenades#Stun_Grenades",' +
+  '"147": "Chest_Mines#Chest_Mines_example:_BS_weapon",' +
+  '"148": "Chest_Mines#Chest_Mines_example:_CC_Weapon",' +
+  '"149": "CC_Weapon#VORPAL_CC_WEAPON",' +
+  '"150": "MadTrap",' +
+  '"151": "Suppressive_Fire",' +
+  '"152": "Red_Fury",' +
+  '"153": "CC_Weapon#T2_CC_Weapon",' +
+  '"154": "Pitcher",' +
+  '"155": "Marksman_Rifle",' +
+  '"156": "Pistol#Viral_Pistol",' +
+  '"157": "Spitfire",' +
+  '"158": "SymbioBug",' +
+  '"159": "Feuerbach",' +
+  '"160": "Submachine_Gun",' +
+  '"161": "Heavy_Machine_Gun_(HMG)",' +
+  '"162": "CC_Weapon#Templar_CC_Weapon",' +
+  '"163": "D-Charges",' +
+  '"164": "Rifle#MULTI_Rifle",' +
+  '"165": "Sniper_Rifle#MULTI_Sniper_Rifle",' +
+  '"166": "Sniper_Rifle#Smart_MULTI_Sniper_Rifle",' +
+  '"167": "Grenade_Launcher_(GL)#Stun_Light_Grenade_Launcher",' +
+  '"168": "Hyper-Rapid_Magnetic_Cannon_(HMC)"' +
+  '
+};
+]
